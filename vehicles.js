@@ -19,9 +19,9 @@ const vehicles = [
     tagline: "The train you will almost certainly board in Sydney.",
     description:
       "With well over 500 carriages across two generations, the double-deck Waratah is the largest passenger fleet in Australia. If you tap on somewhere in suburban Sydney, odds are one of these turns up.",
-    file: "Double image of A set and B set Waratahs.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Double_image_of_A_set_and_B_set_Waratahs.jpg/500px-Double_image_of_A_set_and_B_set_Waratahs.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Double_image_of_A_set_and_B_set_Waratahs.jpg/1280px-Double_image_of_A_set_and_B_set_Waratahs.jpg",
+    file: "Sydney Trains A set (Waratah) departing Central Station (2).jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Sydney_Trains_A_set_%28Waratah%29_departing_Central_Station_%282%29.jpg/500px-Sydney_Trains_A_set_%28Waratah%29_departing_Central_Station_%282%29.jpg",
+    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Sydney_Trains_A_set_%28Waratah%29_departing_Central_Station_%282%29.jpg/1280px-Sydney_Trains_A_set_%28Waratah%29_departing_Central_Station_%282%29.jpg",
     source: "https://en.wikipedia.org/wiki/Sydney_Trains_A_%26_B_sets",
   },
   {
@@ -376,9 +376,9 @@ const vehicles = [
     tagline: "A catamaran built for the harbour commute.",
     description:
       "The Emerald class carries passengers across Sydney Harbour with bicycle storage, device charging and improved accessibility. Nine vessels span two generations.",
-    file: "Vivid Sydney 2018 (12).jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Vivid_Sydney_2018_%2812%29.jpg/500px-Vivid_Sydney_2018_%2812%29.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Vivid_Sydney_2018_%2812%29.jpg/1280px-Vivid_Sydney_2018_%2812%29.jpg",
+    file: "MV Pemulwuy at Milsons Point, November 2016 (4).jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/MV_Pemulwuy_at_Milsons_Point%2C_November_2016_%284%29.jpg/500px-MV_Pemulwuy_at_Milsons_Point%2C_November_2016_%284%29.jpg",
+    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/MV_Pemulwuy_at_Milsons_Point%2C_November_2016_%284%29.jpg/1280px-MV_Pemulwuy_at_Milsons_Point%2C_November_2016_%284%29.jpg",
     source: "https://en.wikipedia.org/wiki/Emerald-class_ferry",
   },
   {
@@ -1016,6 +1016,28 @@ const vehicles = [
     source: "https://en.wikipedia.org/wiki/RiverCity_Ferries",
   },
 
+  {
+    id: "brisbane-citybus",
+    name: "Transport for Brisbane CityBus",
+    shortName: "Brisbane bus",
+    state: "QLD",
+    city: "Brisbane",
+    mode: "bus",
+    rarity: "common",
+    weight: 24,
+    operator: "Transport for Brisbane",
+    service: "TransLink network",
+    speed: "80 km/h",
+    capacity: "~65",
+    tagline: "Australia's biggest council-run bus fleet.",
+    description:
+      "Brisbane City Council operates more than 1,200 buses — the largest council-owned fleet in the country. The blue-and-yellow Volgren-bodied Volvos work everywhere from quiet suburban loops to the South East Busway.",
+    file: "Transport for Brisbane bus, E2119, a Volvo B7RLE Optimus.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Transport_for_Brisbane_bus%2C_E2119%2C_a_Volvo_B7RLE_Optimus.jpg/500px-Transport_for_Brisbane_bus%2C_E2119%2C_a_Volvo_B7RLE_Optimus.jpg",
+    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Transport_for_Brisbane_bus%2C_E2119%2C_a_Volvo_B7RLE_Optimus.jpg/1280px-Transport_for_Brisbane_bus%2C_E2119%2C_a_Volvo_B7RLE_Optimus.jpg",
+    source: "https://en.wikipedia.org/wiki/Transport_for_Brisbane",
+  },
+
   // --- Western Australia -----------------------------------------------------------
   {
     id: "a-series",
@@ -1096,9 +1118,9 @@ const vehicles = [
     tagline: "The fastest diesel railcar in Australia.",
     description:
       "The Prospector covers the 655 km from East Perth to the Goldfields at up to 160 km/h, making it Australia's fastest diesel train. Meals served at your seat as the wheatbelt blurs past.",
-    file: "The Prospector streamliner.JPG",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/The_Prospector_streamliner.JPG/500px-The_Prospector_streamliner.JPG",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/9/96/The_Prospector_streamliner.JPG",
+    file: "Prospector, Mt Lawley, 2013 (01).JPG",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Prospector%2C_Mt_Lawley%2C_2013_%2801%29.JPG/500px-Prospector%2C_Mt_Lawley%2C_2013_%2801%29.JPG",
+    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Prospector%2C_Mt_Lawley%2C_2013_%2801%29.JPG/1280px-Prospector%2C_Mt_Lawley%2C_2013_%2801%29.JPG",
     source: "https://en.wikipedia.org/wiki/Prospector_(train)",
   },
   {
