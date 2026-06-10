@@ -418,31 +418,8 @@ function vehicleCard(vehicle, options = {}) {
   `;
 }
 
-let walletRaf = null;
-let displayedTickets = null;
-
 function renderWallet() {
-  const el = document.querySelector("#ticket-count");
-  const target = game.tickets;
-
-  if (displayedTickets === null || displayedTickets === target) {
-    el.textContent = target.toLocaleString();
-    displayedTickets = target;
-  } else {
-    const start = displayedTickets;
-    const diff = target - start;
-    const t0 = performance.now();
-    const duration = 450;
-    displayedTickets = target;
-    cancelAnimationFrame(walletRaf);
-    const step = (t) => {
-      const progress = Math.min((t - t0) / duration, 1);
-      el.textContent = Math.round(start + diff * progress).toLocaleString();
-      if (progress < 1) walletRaf = requestAnimationFrame(step);
-    };
-    walletRaf = requestAnimationFrame(step);
-  }
-
+  document.querySelector("#ticket-count").textContent = game.tickets.toLocaleString();
   document.querySelector("#stamp-count").textContent = game.stamps.toLocaleString();
   document.querySelector("#level-chip").textContent = `LV ${levelInfo().level}`;
   document.querySelector("#regen-timer").textContent = regenLabel();
@@ -673,11 +650,7 @@ function renderAll() {
 // --- Reveal -----------------------------------------------------------------
 
 function flipCard(card) {
-  if (card.classList.contains("flipped")) return;
   card.classList.add("flipped");
-  const isLegendary = card.dataset.rarity === "legendary";
-  const isNewShiny = card.dataset.shiny === "true" && card.dataset.new === "true";
-  if (isLegendary || isNewShiny) flashScreen();
 }
 
 function openReveal(results, stampsEarned = 0) {
@@ -738,13 +711,6 @@ function openReveal(results, stampsEarned = 0) {
   });
 }
 
-function flashScreen() {
-  const flash = document.createElement("div");
-  flash.className = "screen-flash";
-  document.body.append(flash);
-  window.setTimeout(() => flash.remove(), 700);
-}
-
 // --- Detail -----------------------------------------------------------------
 
 function openDetail(vehicle) {
@@ -799,7 +765,7 @@ function setView(viewName) {
   document.querySelectorAll("[data-view-link]").forEach((button) => {
     button.classList.toggle("active", button.dataset.viewLink === viewName);
   });
-  window.scrollTo({ top: 0, behavior: "smooth" });
+  window.scrollTo(0, 0);
 }
 
 function showToast(message) {

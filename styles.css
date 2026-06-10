@@ -21,10 +21,6 @@
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   margin: 0;
   min-width: 320px;
@@ -523,12 +519,10 @@ main {
   background: var(--white);
   border: 1px solid var(--line);
   cursor: pointer;
-  transition: transform 160ms ease, box-shadow 160ms ease;
 }
 
 .vehicle-card:hover {
   z-index: 2;
-  transform: translateY(-4px);
   box-shadow: 0 12px 30px rgba(25, 34, 42, 0.13);
 }
 
@@ -704,7 +698,6 @@ main {
   width: 0;
   height: 100%;
   background: #b77bd2;
-  transition: width 300ms ease;
 }
 
 .page-header {
@@ -1189,14 +1182,6 @@ dialog::backdrop {
   box-shadow: var(--shadow);
   font-size: 11px;
   font-weight: 600;
-  animation: toast-in 180ms ease-out;
-}
-
-@keyframes toast-in {
-  from {
-    opacity: 0;
-    transform: translateX(12px);
-  }
 }
 
 .empty-state {
@@ -1601,7 +1586,6 @@ dialog::backdrop {
   width: 0;
   height: 100%;
   background: var(--epic);
-  transition: width 300ms ease;
 }
 
 .pity-bar.legend i {
@@ -1790,21 +1774,6 @@ dialog::backdrop {
 
 /* --- Celebration --------------------------------------------------------------- */
 
-.screen-flash {
-  position: fixed;
-  z-index: 80;
-  inset: 0;
-  pointer-events: none;
-  background: radial-gradient(circle, rgba(255, 223, 128, 0.55), transparent 70%);
-  animation: flash-out 650ms ease-out forwards;
-}
-
-@keyframes flash-out {
-  to {
-    opacity: 0;
-  }
-}
-
 /* --- Guide sighted ticks --------------------------------------------------------- */
 
 .guide-vehicle.sighted {
@@ -1867,7 +1836,6 @@ dialog::backdrop {
   display: block;
   height: 100%;
   background: linear-gradient(90deg, var(--purple), #b77bd2);
-  transition: width 300ms ease;
 }
 
 .stat-list {
@@ -1992,7 +1960,6 @@ dialog::backdrop {
   display: block;
   height: 100%;
   background: var(--purple);
-  transition: width 300ms ease;
 }
 
 .achievement.claimable .ach-progress i {
