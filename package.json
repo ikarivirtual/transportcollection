@@ -4,6 +4,6 @@
   "private": true,
   "description": "A simple collection game about Australian public transport vehicles.",
   "scripts": {
-    "start": "node server.js"
+    "dev": "node server.js"
   }
 }

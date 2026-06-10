@@ -24,7 +24,7 @@ including a rare gold "limited livery" variant of every vehicle.
 Open `index.html` directly, or run the included zero-dependency local server:
 
 ```powershell
-npm start
+npm run dev
 ```
 
 Then visit `http://localhost:8000`.
