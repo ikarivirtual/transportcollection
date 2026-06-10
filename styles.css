@@ -184,14 +184,6 @@ main {
 
 .view.active {
   display: block;
-  animation: view-in 180ms ease-out;
-}
-
-@keyframes view-in {
-  from {
-    opacity: 0;
-    transform: translateY(5px);
-  }
 }
 
 .hero {
@@ -551,11 +543,6 @@ main {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 300ms ease;
-}
-
-.vehicle-card:hover .vehicle-image img {
-  transform: scale(1.035);
 }
 
 .rarity-stripe {
@@ -1050,18 +1037,6 @@ dialog::backdrop {
   margin: 0 auto;
 }
 
-.reveal-results .vehicle-card {
-  opacity: 0;
-  transform: translateY(18px);
-  animation: card-arrive 350ms forwards ease-out;
-}
-
-@keyframes card-arrive {
-  to {
-    opacity: 1;
-    transform: none;
-  }
-}
 
 .new-ribbon {
   position: absolute;
@@ -1593,19 +1568,6 @@ dialog::backdrop {
   width: 14px;
 }
 
-.board-button.pulse:not(:disabled) {
-  animation: button-pulse 1.9s infinite;
-}
-
-@keyframes button-pulse {
-  0%, 100% {
-    box-shadow: 0 0 0 0 rgba(118, 63, 152, 0.45);
-  }
-  50% {
-    box-shadow: 0 0 0 10px rgba(118, 63, 152, 0);
-  }
-}
-
 .pity-block {
   display: grid;
   gap: 5px;
@@ -1668,29 +1630,6 @@ dialog::backdrop {
 .vehicle-card.shiny {
   border-color: #d9a514;
   box-shadow: 0 0 0 1px #e7c258, 0 10px 26px rgba(204, 139, 0, 0.25);
-}
-
-.vehicle-card.shiny .vehicle-image::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    115deg,
-    transparent 30%,
-    rgba(255, 235, 170, 0.5) 45%,
-    rgba(255, 255, 255, 0.3) 50%,
-    transparent 65%
-  );
-  animation: foil-sweep 2.6s infinite;
-}
-
-@keyframes foil-sweep {
-  from {
-    transform: translateX(-100%);
-  }
-  to {
-    transform: translateX(100%);
-  }
 }
 
 .vehicle-card.shiny .rarity-stripe {
@@ -1756,7 +1695,6 @@ dialog::backdrop {
 
 .flip-card {
   --glow: var(--common);
-  perspective: 1000px;
 }
 
 .flip-card[data-rarity="rare"] {
@@ -1781,42 +1719,33 @@ dialog::backdrop {
 
 .flip-inner {
   position: relative;
-  transform-style: preserve-3d;
-  transition: transform 550ms cubic-bezier(0.2, 0.7, 0.3, 1);
-}
-
-.flip-card.flipped .flip-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-front,
-.flip-back {
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
 }
 
 .flip-front {
-  transform: rotateY(180deg);
+  opacity: 0;
+  transition: opacity 220ms ease;
+}
+
+.flip-card.flipped .flip-front {
+  opacity: 1;
 }
 
 .flip-back {
   position: absolute;
+  z-index: 2;
   inset: 0;
   display: grid;
   place-items: center;
   align-content: center;
   gap: 14px;
   background: var(--charcoal);
-  animation: back-pulse 850ms ease-in-out infinite alternate;
+  box-shadow: inset 0 0 0 3px var(--glow);
+  transition: opacity 220ms ease;
 }
 
-@keyframes back-pulse {
-  from {
-    box-shadow: inset 0 0 0 2px var(--glow);
-  }
-  to {
-    box-shadow: inset 0 0 0 3px var(--glow), 0 0 26px 2px var(--glow);
-  }
+.flip-card.flipped .flip-back {
+  opacity: 0;
+  pointer-events: none;
 }
 
 .back-track {
@@ -1835,9 +1764,6 @@ dialog::backdrop {
 }
 
 .reveal-results .vehicle-card {
-  opacity: 1;
-  transform: none;
-  animation: none;
   cursor: pointer;
 }
 
@@ -1863,22 +1789,6 @@ dialog::backdrop {
 }
 
 /* --- Celebration --------------------------------------------------------------- */
-
-.confetti-piece {
-  position: fixed;
-  z-index: 99;
-  top: -14px;
-  width: 8px;
-  height: 14px;
-  pointer-events: none;
-  animation: confetti-fall linear forwards;
-}
-
-@keyframes confetti-fall {
-  to {
-    transform: translateY(105vh) rotate(720deg);
-  }
-}
 
 .screen-flash {
   position: fixed;
@@ -2110,20 +2020,10 @@ dialog::backdrop {
   font-size: 10px;
   font-weight: 800;
   white-space: nowrap;
-  animation: button-pulse-amber 1.6s infinite;
 }
 
 .claim-button:hover {
   background: #ffd75e;
-}
-
-@keyframes button-pulse-amber {
-  0%, 100% {
-    box-shadow: 0 0 0 0 rgba(239, 185, 0, 0.5);
-  }
-  50% {
-    box-shadow: 0 0 0 8px rgba(239, 185, 0, 0);
-  }
 }
 
 .ach-reward {

@@ -376,7 +376,6 @@ function vehicleCard(vehicle, options = {}) {
   const shinyCopies = game.shinies[vehicle.id] || 0;
   const total = regular + shinyCopies;
   const locked = options.locked ?? total === 0;
-  const delay = options.delay ?? 0;
   const isNew = options.isNew;
   const shiny = options.shiny ?? false;
   const charterCost = rarityConfig[vehicle.rarity].charter;
@@ -386,7 +385,6 @@ function vehicleCard(vehicle, options = {}) {
       class="vehicle-card ${locked ? "locked" : ""} ${shiny ? "shiny" : ""}"
       data-rarity="${vehicle.rarity}"
       data-vehicle-id="${vehicle.id}"
-      style="animation-delay:${delay}ms"
       ${locked ? "" : 'tabindex="0" role="button"'}
     >
       ${isNew ? `<span class="new-ribbon">${shiny ? "NEW LTD" : "NEW"}</span>` : ""}
@@ -655,8 +653,6 @@ function renderButtons() {
     const count = Number(button.dataset.pull);
     button.disabled = game.tickets < pullCost(count);
   });
-  const hero = document.querySelector("#hero-pull");
-  hero.classList.toggle("pulse", game.tickets >= 1);
 }
 
 function renderAll() {
@@ -681,10 +677,7 @@ function flipCard(card) {
   card.classList.add("flipped");
   const isLegendary = card.dataset.rarity === "legendary";
   const isNewShiny = card.dataset.shiny === "true" && card.dataset.new === "true";
-  if (isLegendary || isNewShiny) {
-    flashScreen();
-    confettiBurst();
-  }
+  if (isLegendary || isNewShiny) flashScreen();
 }
 
 function openReveal(results, stampsEarned = 0) {
@@ -743,20 +736,6 @@ function openReveal(results, stampsEarned = 0) {
       if (card && dialog.open) flipCard(card);
     }, 600 + index * 320);
   });
-}
-
-function confettiBurst() {
-  const colors = ["#cc8b00", "#763f98", "#287bb5", "#25a866", "#e44b4b", "#ffd75e"];
-  for (let index = 0; index < 90; index += 1) {
-    const piece = document.createElement("i");
-    piece.className = "confetti-piece";
-    piece.style.left = `${Math.random() * 100}vw`;
-    piece.style.background = colors[index % colors.length];
-    piece.style.animationDuration = `${2 + Math.random() * 1.6}s`;
-    piece.style.animationDelay = `${Math.random() * 0.35}s`;
-    document.body.append(piece);
-    window.setTimeout(() => piece.remove(), 4200);
-  }
 }
 
 function flashScreen() {
