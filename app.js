@@ -1,244 +1,5 @@
-const imageUrl = (file, width = 1200) =>
+﻿const imageUrl = (file, width = 1200) =>
   `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(file)}?width=${width}`;
-
-const vehicles = [
-  {
-    id: "ngr",
-    name: "New Generation Rollingstock",
-    shortName: "NGR",
-    state: "QLD",
-    city: "Brisbane",
-    mode: "train",
-    rarity: "legendary",
-    weight: 3,
-    operator: "Queensland Rail",
-    service: "2017-present",
-    speed: "140 km/h",
-    capacity: "964",
-    tagline: "Six cars of South East Queensland muscle.",
-    description:
-      "Queensland Rail's largest electric fleet links Brisbane with the Gold Coast, Airport, Redcliffe and more. Its walk-through six-car formation makes the NGR one of the network's most recognisable modern trains.",
-    file: "New Generation Rollingstock 736 Sunshine Railway Station Bilsen Rd Geebung P1040861.jpg",
-    source: "https://en.wikipedia.org/wiki/New_Generation_Rollingstock",
-  },
-  {
-    id: "g-class",
-    name: "G-class Melbourne tram",
-    shortName: "G-class tram",
-    state: "VIC",
-    city: "Melbourne",
-    mode: "tram",
-    rarity: "legendary",
-    weight: 3,
-    operator: "Yarra Trams",
-    service: "2026 rollout",
-    speed: "80 km/h",
-    capacity: "150",
-    tagline: "Melbourne's next generation, made in Dandenong.",
-    description:
-      "The low-floor G-class is based on Alstom's Flexity 2 platform and built for Melbourne's famous tram network. Battery storage and regenerative braking are designed to reduce peak power demand.",
-    file: "G-class tram mockup at Alstom warehouse in Melbourne, Tullamarine (53413292470).jpg",
-    source: "https://en.wikipedia.org/wiki/G-class_Melbourne_tram",
-  },
-  {
-    id: "sydney-metro",
-    name: "Sydney Metro Metropolis",
-    shortName: "Metro Metropolis",
-    state: "NSW",
-    city: "Sydney",
-    mode: "train",
-    rarity: "epic",
-    weight: 8,
-    operator: "Metro Trains Sydney",
-    service: "2019-present",
-    speed: "100 km/h",
-    capacity: "1,100",
-    tagline: "Driverless, single-deck and built for frequency.",
-    description:
-      "Sydney Metro's six-car Alstom Metropolis trains operate automatically with wide doors and longitudinal seating. The fleet serves the North West, City and Bankstown corridors.",
-    file: "Sydney Metro Alstom Metropolis Driverless Train1.jpg",
-    source: "https://en.wikipedia.org/wiki/Sydney_Metro_Metropolis_Stock",
-  },
-  {
-    id: "c-series",
-    name: "Transperth C-series",
-    shortName: "C-series",
-    state: "WA",
-    city: "Perth",
-    mode: "train",
-    rarity: "epic",
-    weight: 8,
-    operator: "Transperth",
-    service: "2024-present",
-    speed: "130 km/h",
-    capacity: "1,184",
-    tagline: "The X'Trapolis built back home in WA.",
-    description:
-      "Assembled at Bellevue, the C-series returned passenger train manufacturing to Western Australia. Six-car sets entered service on the Yanchep and Mandurah lines in 2024.",
-    file: "Transperth C-series train at Canning Bridge Station, October 2024.jpg",
-    source: "https://en.wikipedia.org/wiki/Transperth_C-series_train",
-  },
-  {
-    id: "brisbane-metro",
-    name: "Brisbane Metro lighTram 25",
-    shortName: "Brisbane Metro",
-    state: "QLD",
-    city: "Brisbane",
-    mode: "bus",
-    rarity: "epic",
-    weight: 8,
-    operator: "Transport for Brisbane",
-    service: "2025-present",
-    speed: "90 km/h",
-    capacity: "150",
-    tagline: "A 24.5 metre electric bus with metro ambitions.",
-    description:
-      "The bi-articulated HESS lighTram 25 uses rapid charging and all-door boarding on Brisbane's busways. It is the unusual, unmistakable centrepiece of the city's Metro service.",
-    file: "Brisbane Metro bus testing on the Northern Busway, Brisbane, February 2024 P1001852.jpg",
-    source: "https://en.wikipedia.org/wiki/Brisbane_Metro",
-  },
-  {
-    id: "g-link",
-    name: "G:link Flexity 2",
-    shortName: "G:link Flexity 2",
-    state: "QLD",
-    city: "Gold Coast",
-    mode: "tram",
-    rarity: "rare",
-    weight: 16,
-    operator: "Keolis Downer",
-    service: "2014-present",
-    speed: "70 km/h",
-    capacity: "309",
-    tagline: "Blue-sky light rail for the Gold Coast.",
-    description:
-      "The seven-section Flexity 2 is a 100 percent low-floor tram built for the Gold Coast's long, linear urban corridor. Its surfboard racks are a particularly local touch.",
-    file: "GCLR Set 9 at Broadwater Parklands 2014-09-28.jpg",
-    source: "https://en.wikipedia.org/wiki/G:link",
-  },
-  {
-    id: "canberra-urbos",
-    name: "Canberra CAF Urbos 3",
-    shortName: "Canberra Urbos 3",
-    state: "ACT",
-    city: "Canberra",
-    mode: "tram",
-    rarity: "rare",
-    weight: 16,
-    operator: "Canberra Metro",
-    service: "2019-present",
-    speed: "70 km/h",
-    capacity: "207",
-    tagline: "The capital's red light rail workhorse.",
-    description:
-      "Canberra's five-section CAF Urbos 3 trams connect Gungahlin with Civic. They launched the capital's first modern light rail service in April 2019.",
-    file: "Urbos 3 leaving the Alinga Street light rail stop July 2021 (2).jpg",
-    source: "https://en.wikipedia.org/wiki/Light_rail_in_Canberra",
-  },
-  {
-    id: "acity",
-    name: "Adelaide A-City 4000",
-    shortName: "A-City 4000",
-    state: "SA",
-    city: "Adelaide",
-    mode: "train",
-    rarity: "rare",
-    weight: 16,
-    operator: "Adelaide Metro",
-    service: "2014-present",
-    speed: "110 km/h",
-    capacity: "540",
-    tagline: "South Australia's electric flagship.",
-    description:
-      "The three-car A-City is the only operational electric train class in South Australia. Built in Dandenong, it serves the Gawler, Seaford and Flinders lines.",
-    file: "Adelaide Metro 4000 Class at Seaford.jpg",
-    source: "https://en.wikipedia.org/wiki/Adelaide_Metro_4000_class",
-  },
-  {
-    id: "vlocity",
-    name: "V/Line VLocity",
-    shortName: "VLocity",
-    state: "VIC",
-    city: "Regional Victoria",
-    mode: "train",
-    rarity: "rare",
-    weight: 16,
-    operator: "V/Line",
-    service: "2005-present",
-    speed: "160 km/h",
-    capacity: "Up to 224",
-    tagline: "Purple regional speed from Dandenong.",
-    description:
-      "The VLocity is the fastest train in V/Line's fleet and a defining sight across regional Victoria. The diesel multiple units have been in continuous production for more than two decades.",
-    file: "Vlocity train at lara victoria.jpg",
-    source: "https://en.wikipedia.org/wiki/V/Line_VLocity",
-  },
-  {
-    id: "emerald-ferry",
-    name: "Emerald-class ferry",
-    shortName: "Emerald ferry",
-    state: "NSW",
-    city: "Sydney",
-    mode: "ferry",
-    rarity: "common",
-    weight: 24,
-    operator: "Sydney Ferries",
-    service: "2017-present",
-    speed: "26 knots",
-    capacity: "400",
-    tagline: "A catamaran built for the harbour commute.",
-    description:
-      "The Emerald class carries passengers across Sydney Harbour with bicycle storage, device charging and improved accessibility. Nine vessels span two generations.",
-    file: "Vivid Sydney 2018 (12).jpg",
-    source: "https://en.wikipedia.org/wiki/Emerald-class_ferry",
-  },
-  {
-    id: "e-class",
-    name: "E-class Melbourne tram",
-    shortName: "E-class tram",
-    state: "VIC",
-    city: "Melbourne",
-    mode: "tram",
-    rarity: "common",
-    weight: 24,
-    operator: "Yarra Trams",
-    service: "2013-present",
-    speed: "80 km/h",
-    capacity: "210",
-    tagline: "Melbourne's biggest production tram.",
-    description:
-      "The five-section E-class is Melbourne's longest tram in regular service. Built in Dandenong, its low floor and high capacity suit the network's busiest routes.",
-    file: "Melbourne Tram E-Class 6007.jpg",
-    source: "https://en.wikipedia.org/wiki/E-class_Melbourne_tram",
-  },
-];
-
-const stateInfo = {
-  QLD: {
-    name: "Queensland",
-    blurb: "Long coastal runs, bright trams and Brisbane's new electric busway giant.",
-  },
-  NSW: {
-    name: "New South Wales",
-    blurb: "Driverless metro below the city and ferries threading through the harbour.",
-  },
-  VIC: {
-    name: "Victoria",
-    blurb: "The country's great tram laboratory, backed by fast regional rail.",
-  },
-  WA: {
-    name: "Western Australia",
-    blurb: "New locally assembled trains stretching north and south from Perth.",
-  },
-  SA: {
-    name: "South Australia",
-    blurb: "Broad-gauge electric trains rolling from Adelaide to coast and suburbs.",
-  },
-  ACT: {
-    name: "Australian Capital Territory",
-    blurb: "A compact red light rail fleet linking Gungahlin with the city.",
-  },
-};
 
 const rarityRank = { common: 1, rare: 2, epic: 3, legendary: 4 };
 const rarityConfig = {
@@ -383,19 +144,23 @@ const achievements = [
   { id: "pulls-150", name: "Network veteran", desc: "Board 150 services.", icon: "medal", reward: 15, progress: () => [game.totalPulls, 150] },
   { id: "own-3", name: "Trainspotter", desc: "Sight 3 different vehicles.", icon: "binoculars", reward: 3, progress: () => [ownedVehicleCount(), 3] },
   { id: "own-6", name: "Interstate", desc: "Sight 6 different vehicles.", icon: "map-pinned", reward: 5, progress: () => [ownedVehicleCount(), 6] },
-  { id: "own-all", name: "Full network", desc: "Sight every vehicle in the guide.", icon: "trophy", reward: 15, progress: () => [ownedVehicleCount(), vehicles.length] },
+  { id: "own-15", name: "Network nerd", desc: "Sight 15 different vehicles.", icon: "telescope", reward: 8, progress: () => [ownedVehicleCount(), 15] },
+  { id: "own-30", name: "Half the country", desc: "Sight 30 different vehicles.", icon: "earth", reward: 12, progress: () => [ownedVehicleCount(), 30] },
+  { id: "own-all", name: "Full network", desc: "Sight every vehicle in the guide.", icon: "trophy", reward: 30, progress: () => [ownedVehicleCount(), vehicles.length] },
   { id: "epic-1", name: "Purple patch", desc: "Sight your first epic vehicle.", icon: "sparkles", reward: 4, progress: () => [Math.min(ownedOfRarity("epic"), 1), 1] },
   { id: "legend-1", name: "Flagship find", desc: "Sight your first legendary vehicle.", icon: "crown", reward: 6, progress: () => [Math.min(ownedOfRarity("legendary"), 1), 1] },
   { id: "shiny-1", name: "Foil debut", desc: "Pull your first limited livery.", icon: "star", reward: 6, progress: () => [Math.min(ownedShinyCount(), 1), 1] },
   { id: "shiny-5", name: "Foil fanatic", desc: "Collect 5 limited liveries.", icon: "stars", reward: 14, progress: () => [ownedShinyCount(), 5] },
-  { id: "shiny-all", name: "Golden timetable", desc: "Collect every limited livery.", icon: "gem", reward: 30, progress: () => [ownedShinyCount(), vehicles.length] },
+  { id: "shiny-15", name: "Foil financier", desc: "Collect 15 limited liveries.", icon: "gem", reward: 20, progress: () => [ownedShinyCount(), 15] },
+  { id: "shiny-all", name: "Golden timetable", desc: "Collect every limited livery.", icon: "crown", reward: 60, progress: () => [ownedShinyCount(), vehicles.length] },
   { id: "streak-3", name: "Three-day tripper", desc: "Reach a 3-day daily streak.", icon: "flame", reward: 4, progress: () => [game.bestStreak, 3] },
   { id: "streak-7", name: "Week of wheels", desc: "Reach a 7-day daily streak.", icon: "calendar-heart", reward: 10, progress: () => [game.bestStreak, 7] },
   { id: "level-5", name: "Senior conductor", desc: "Reach conductor level 5.", icon: "badge-check", reward: 6, progress: () => [levelInfo().level, 5] },
   { id: "level-10", name: "Network controller", desc: "Reach conductor level 10.", icon: "radio-tower", reward: 12, progress: () => [levelInfo().level, 10] },
-  { id: "set-tram", name: "Tram enthusiast", desc: "Sight every tram.", icon: "tram-front", reward: 6, progress: () => [ownedOfSet(modeSet("tram")), modeSet("tram").length] },
-  { id: "set-train", name: "Heavy rail hero", desc: "Sight every train.", icon: "train-front", reward: 6, progress: () => [ownedOfSet(modeSet("train")), modeSet("train").length] },
-  { id: "set-odd", name: "Road and water", desc: "Sight the bus and the ferry.", icon: "ship", reward: 4, progress: () => [ownedOfSet([...modeSet("bus"), ...modeSet("ferry")]), 2] },
+  { id: "set-tram", name: "Tram enthusiast", desc: "Sight every tram.", icon: "tram-front", reward: 10, progress: () => [ownedOfSet(modeSet("tram")), modeSet("tram").length] },
+  { id: "set-train", name: "Heavy rail hero", desc: "Sight every train.", icon: "train-front", reward: 15, progress: () => [ownedOfSet(modeSet("train")), modeSet("train").length] },
+  { id: "set-bus", name: "Bus boss", desc: "Sight every bus.", icon: "bus-front", reward: 8, progress: () => [ownedOfSet(modeSet("bus")), modeSet("bus").length] },
+  { id: "set-ferry", name: "Sea legs", desc: "Sight every ferry.", icon: "ship", reward: 8, progress: () => [ownedOfSet(modeSet("ferry")), modeSet("ferry").length] },
   { id: "stamps-100", name: "Stamp collector", desc: "Earn 100 stamps in total.", icon: "stamp", reward: 6, progress: () => [game.lifetimeStamps, 100] },
 ];
 
@@ -625,8 +390,8 @@ function vehicleCard(vehicle, options = {}) {
       ${locked ? "" : 'tabindex="0" role="button"'}
     >
       ${isNew ? `<span class="new-ribbon">${shiny ? "NEW LTD" : "NEW"}</span>` : ""}
-      ${total > 1 && !options.hideCount ? `<span class="copy-count">×${total}</span>` : ""}
-      ${!locked && shinyCopies && !options.hideCount ? `<span class="foil-chip">★ LTD ×${shinyCopies}</span>` : ""}
+      ${total > 1 && !options.hideCount ? `<span class="copy-count">Ã—${total}</span>` : ""}
+      ${!locked && shinyCopies && !options.hideCount ? `<span class="foil-chip">â˜… LTD Ã—${shinyCopies}</span>` : ""}
       <div class="vehicle-image">
         <img
           src="${imageUrl(vehicle.file, 700)}"
@@ -693,9 +458,9 @@ function renderDaily() {
     ? "Collected"
     : `Collect +${dailyReward(continuing ? game.streak + 1 : 1)}`;
   document.querySelector("#daily-status").textContent = claimed
-    ? `Day ${game.streak} streak — next service tomorrow (+${dailyReward(game.streak + 1)})`
+    ? `Day ${game.streak} streak â€” next service tomorrow (+${dailyReward(game.streak + 1)})`
     : continuing
-      ? `${game.streak}-day streak on the line — keep it alive!`
+      ? `${game.streak}-day streak on the line â€” keep it alive!`
       : "Available now";
 }
 
@@ -763,7 +528,7 @@ function renderGarage() {
   const percent = Math.round((collectedSlots / totalSlots) * 100);
 
   document.querySelector("#collection-summary").textContent =
-    `${regularOwned} of ${vehicles.length} vehicles • ${shinyOwned} of ${vehicles.length} limited liveries`;
+    `${regularOwned} of ${vehicles.length} vehicles â€¢ ${shinyOwned} of ${vehicles.length} limited liveries`;
   document.querySelector("#completion-percent").textContent = `${percent}%`;
   document.querySelector("#home-completion").textContent = `${collectedSlots} / ${totalSlots}`;
   document.querySelector("#home-completion-fill").style.width = `${percent}%`;
@@ -842,10 +607,10 @@ function renderRewards() {
     specific vehicle straight from your collection page.</p>
     <div class="exchange-balance"><i data-lucide="stamp"></i><strong>${game.stamps.toLocaleString()}</strong> stamps</div>
     <button class="board-button" data-exchange="1" ${game.stamps < EXCHANGE_RATE ? "disabled" : ""}>
-      Exchange ${EXCHANGE_RATE} stamps → 1 ticket
+      Exchange ${EXCHANGE_RATE} stamps â†’ 1 ticket
     </button>
     <button class="board-button express" data-exchange="5" ${game.stamps < EXCHANGE_RATE * 5 ? "disabled" : ""}>
-      Exchange ${EXCHANGE_RATE * 5} stamps → 5 tickets
+      Exchange ${EXCHANGE_RATE * 5} stamps â†’ 5 tickets
     </button>
   `;
 
@@ -939,7 +704,7 @@ function openReveal(results, stampsEarned = 0) {
   if (shinyCount) parts.push(`${shinyCount} limited liver${shinyCount === 1 ? "y" : "ies"}`);
   if (stampsEarned) parts.push(`+${stampsEarned} stamps from duplicates`);
   document.querySelector("#reveal-subtitle").textContent = parts.length
-    ? parts.join(" • ")
+    ? parts.join(" â€¢ ")
     : "Tap a card to reveal it early.";
 
   container.className = `reveal-results ${results.length === 1 ? "single" : ""} ${results.length > 3 ? "many" : ""}`;
@@ -1028,11 +793,11 @@ function openDetail(vehicle) {
           <div><span>Top speed</span><strong>${vehicle.speed}</strong></div>
           <div><span>Capacity</span><strong>${vehicle.capacity}</strong></div>
           <div><span>Owned</span><strong>${copies || "Not yet"}</strong></div>
-          <div><span>Limited livery</span><strong>${shinyCopies ? `×${shinyCopies}` : "Not yet"}</strong></div>
+          <div><span>Limited livery</span><strong>${shinyCopies ? `Ã—${shinyCopies}` : "Not yet"}</strong></div>
         </div>
         ${locked ? `
           <button class="board-button charter-detail" data-charter="${vehicle.id}" ${game.stamps < charterCost ? "disabled" : ""}>
-            <i data-lucide="stamp"></i> Charter this service — ${charterCost} stamps
+            <i data-lucide="stamp"></i> Charter this service â€” ${charterCost} stamps
           </button>` : ""}
         <a class="source-link" href="${vehicle.source}" target="_blank" rel="noreferrer">
           Read source on Wikipedia <i data-lucide="external-link"></i>

@@ -2,7 +2,9 @@
 
 A browser collection game about Australian public transport vehicles.
 Claim daily tickets, board mystery services, and complete the network guide —
-including a rare gold "limited livery" variant of every vehicle.
+**65 active vehicle classes across all 8 states and territories**, from the
+Waratah and the HCMT down to the Westgate Punt and the once-a-week Gulflander,
+each with a rare gold "limited livery" variant.
 
 ## How it hooks you
 

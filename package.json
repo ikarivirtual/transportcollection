@@ -5,5 +5,8 @@
   "description": "A simple collection game about Australian public transport vehicles.",
   "scripts": {
     "dev": "node server.js"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
   }
 }
