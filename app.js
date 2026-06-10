@@ -1,4 +1,4 @@
-﻿const imageUrl = (file, width = 1200) =>
+const imageUrl = (file, width = 1200) =>
   `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(file).replace(/'/g, "%27")}?width=${width}`;
 
 const rarityRank = { common: 1, rare: 2, epic: 3, legendary: 4 };
@@ -390,8 +390,8 @@ function vehicleCard(vehicle, options = {}) {
       ${locked ? "" : 'tabindex="0" role="button"'}
     >
       ${isNew ? `<span class="new-ribbon">${shiny ? "NEW LTD" : "NEW"}</span>` : ""}
-      ${total > 1 && !options.hideCount ? `<span class="copy-count">Ã—${total}</span>` : ""}
-      ${!locked && shinyCopies && !options.hideCount ? `<span class="foil-chip">â˜… LTD Ã—${shinyCopies}</span>` : ""}
+      ${total > 1 && !options.hideCount ? `<span class="copy-count">×${total}</span>` : ""}
+      ${!locked && shinyCopies && !options.hideCount ? `<span class="foil-chip">★ LTD ×${shinyCopies}</span>` : ""}
       <div class="vehicle-image">
         <img
           src="${vehicle.image}"
@@ -459,9 +459,9 @@ function renderDaily() {
     ? "Collected"
     : `Collect +${dailyReward(continuing ? game.streak + 1 : 1)}`;
   document.querySelector("#daily-status").textContent = claimed
-    ? `Day ${game.streak} streak â€” next service tomorrow (+${dailyReward(game.streak + 1)})`
+    ? `Day ${game.streak} streak — next service tomorrow (+${dailyReward(game.streak + 1)})`
     : continuing
-      ? `${game.streak}-day streak on the line â€” keep it alive!`
+      ? `${game.streak}-day streak on the line — keep it alive!`
       : "Available now";
 }
 
@@ -529,7 +529,7 @@ function renderGarage() {
   const percent = Math.round((collectedSlots / totalSlots) * 100);
 
   document.querySelector("#collection-summary").textContent =
-    `${regularOwned} of ${vehicles.length} vehicles â€¢ ${shinyOwned} of ${vehicles.length} limited liveries`;
+    `${regularOwned} of ${vehicles.length} vehicles • ${shinyOwned} of ${vehicles.length} limited liveries`;
   document.querySelector("#completion-percent").textContent = `${percent}%`;
   document.querySelector("#home-completion").textContent = `${collectedSlots} / ${totalSlots}`;
   document.querySelector("#home-completion-fill").style.width = `${percent}%`;
@@ -608,10 +608,10 @@ function renderRewards() {
     specific vehicle straight from your collection page.</p>
     <div class="exchange-balance"><i data-lucide="stamp"></i><strong>${game.stamps.toLocaleString()}</strong> stamps</div>
     <button class="board-button" data-exchange="1" ${game.stamps < EXCHANGE_RATE ? "disabled" : ""}>
-      Exchange ${EXCHANGE_RATE} stamps â†’ 1 ticket
+      Exchange ${EXCHANGE_RATE} stamps → 1 ticket
     </button>
     <button class="board-button express" data-exchange="5" ${game.stamps < EXCHANGE_RATE * 5 ? "disabled" : ""}>
-      Exchange ${EXCHANGE_RATE * 5} stamps â†’ 5 tickets
+      Exchange ${EXCHANGE_RATE * 5} stamps → 5 tickets
     </button>
   `;
 
@@ -705,7 +705,7 @@ function openReveal(results, stampsEarned = 0) {
   if (shinyCount) parts.push(`${shinyCount} limited liver${shinyCount === 1 ? "y" : "ies"}`);
   if (stampsEarned) parts.push(`+${stampsEarned} stamps from duplicates`);
   document.querySelector("#reveal-subtitle").textContent = parts.length
-    ? parts.join(" â€¢ ")
+    ? parts.join(" • ")
     : "Tap a card to reveal it early.";
 
   container.className = `reveal-results ${results.length === 1 ? "single" : ""} ${results.length > 3 ? "many" : ""}`;
@@ -795,11 +795,11 @@ function openDetail(vehicle) {
           <div><span>Top speed</span><strong>${vehicle.speed}</strong></div>
           <div><span>Capacity</span><strong>${vehicle.capacity}</strong></div>
           <div><span>Owned</span><strong>${copies || "Not yet"}</strong></div>
-          <div><span>Limited livery</span><strong>${shinyCopies ? `Ã—${shinyCopies}` : "Not yet"}</strong></div>
+          <div><span>Limited livery</span><strong>${shinyCopies ? `×${shinyCopies}` : "Not yet"}</strong></div>
         </div>
         ${locked ? `
           <button class="board-button charter-detail" data-charter="${vehicle.id}" ${game.stamps < charterCost ? "disabled" : ""}>
-            <i data-lucide="stamp"></i> Charter this service â€” ${charterCost} stamps
+            <i data-lucide="stamp"></i> Charter this service — ${charterCost} stamps
           </button>` : ""}
         <a class="source-link" href="${vehicle.source}" target="_blank" rel="noreferrer">
           Read source on Wikipedia <i data-lucide="external-link"></i>
