@@ -1,5 +1,5 @@
 ﻿const imageUrl = (file, width = 1200) =>
-  `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(file)}?width=${width}`;
+  `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(file).replace(/'/g, "%27")}?width=${width}`;
 
 const rarityRank = { common: 1, rare: 2, epic: 3, legendary: 4 };
 const rarityConfig = {
@@ -394,10 +394,11 @@ function vehicleCard(vehicle, options = {}) {
       ${!locked && shinyCopies && !options.hideCount ? `<span class="foil-chip">â˜… LTD Ã—${shinyCopies}</span>` : ""}
       <div class="vehicle-image">
         <img
-          src="${imageUrl(vehicle.file, 700)}"
+          src="${vehicle.image}"
           alt="${vehicle.name}"
           loading="lazy"
           referrerpolicy="no-referrer"
+          onerror="this.onerror=null;this.src='${imageUrl(vehicle.file, 700)}'"
         />
         ${locked ? '<span class="locked-stamp">NOT SIGHTED</span>' : ""}
         <span class="rarity-stripe"></span>
@@ -780,7 +781,8 @@ function openDetail(vehicle) {
         <i data-lucide="x"></i>
       </button>
       <div class="detail-image">
-        <img src="${imageUrl(vehicle.file, 1300)}" alt="${vehicle.name}" referrerpolicy="no-referrer" />
+        <img src="${vehicle.imageLarge}" alt="${vehicle.name}" referrerpolicy="no-referrer"
+             onerror="this.onerror=null;this.src='${imageUrl(vehicle.file, 1300)}'" />
       </div>
       <div class="detail-copy">
         <span class="rarity-label">${vehicle.rarity} / ${vehicle.mode}</span>
@@ -916,7 +918,7 @@ window.setInterval(() => {
 }, 1000);
 
 document.querySelector("#hero-image").style.backgroundImage =
-  `url("${imageUrl(getVehicle("vlocity").file, 1800)}")`;
+  `url("${getVehicle("vlocity").imageLarge}")`;
 
 applyRegen();
 saveGame();
