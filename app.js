@@ -399,6 +399,7 @@ function vehicleCard(vehicle, options = {}) {
           onerror="this.onerror=null;this.src='${imageUrl(vehicle.file, 700)}'"
         />
         ${locked ? '<span class="locked-stamp">NOT SIGHTED</span>' : ""}
+        ${vehicle.retired && !locked ? '<span class="retired-stamp">FLEET RETIRED</span>' : ""}
         <span class="rarity-stripe"></span>
       </div>
       <div class="vehicle-meta">
