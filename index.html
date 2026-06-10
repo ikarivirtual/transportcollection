@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Pull/Line - collect memorable Australian public transport vehicles."
+    />
+    <title>Pull/Line</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito+Sans:ital,wght@0,400;0,600;0,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header>
+        <div class="masthead">
+          <button class="brand" data-view-link="departures" aria-label="Pull/Line home">
+            <span class="brand-track" aria-hidden="true"></span>
+            <span class="brand-name"><strong>P</strong>/Line</span>
+          </button>
+
+          <div class="header-tools">
+            <span class="network-status"><i data-lucide="circle-check"></i> Network online</span>
+            <span class="level-chip" id="level-chip" title="Conductor level">LV 1</span>
+            <div class="wallet" aria-label="Stamp balance">
+              <i data-lucide="stamp"></i>
+              <span id="stamp-count">0</span>
+              <small>stamps</small>
+            </div>
+            <div class="wallet" aria-label="Ticket balance">
+              <i data-lucide="ticket"></i>
+              <span id="ticket-count">0</span>
+              <small>tickets</small>
+              <small class="regen-note" id="regen-timer"></small>
+            </div>
+          </div>
+        </div>
+
+        <nav class="service-nav" aria-label="Main navigation">
+          <button class="nav-link active" data-view-link="departures">
+            <i data-lucide="radio"></i> Live services
+          </button>
+          <button class="nav-link" data-view-link="garage">
+            <i data-lucide="layout-grid"></i> My collection
+          </button>
+          <button class="nav-link" data-view-link="field-guide">
+            <i data-lucide="map"></i> Network guide
+          </button>
+          <button class="nav-link" data-view-link="rewards">
+            <i data-lucide="gift"></i> Depot
+            <span class="nav-badge" id="rewards-badge" hidden>0</span>
+          </button>
+        </nav>
+      </header>
+
+      <main>
+        <section class="view active" id="departures-view">
+          <div class="hero">
+            <div
+              class="hero-image"
+              id="hero-image"
+              role="img"
+              aria-label="A V/Line train travelling through regional Victoria"
+            ></div>
+            <div class="hero-shade"></div>
+            <div class="hero-copy">
+              <span class="eyebrow">THE AUSTRALIAN TRANSPORT COLLECTION</span>
+              <h1>Connecting<br />your collection</h1>
+              <p>One ticket. One arriving service. See what turns up on the platform.</p>
+            </div>
+
+            <section class="service-board" aria-labelledby="service-board-title">
+              <div class="board-tabs">
+                <button class="active">Live arrivals</button>
+                <button data-view-link="garage">My collection</button>
+                <button data-view-link="field-guide">Network guide</button>
+              </div>
+
+              <div class="board-body">
+                <div class="board-title-row">
+                  <div>
+                    <span class="board-kicker">NOW BOARDING</span>
+                    <h2 id="service-board-title">Mystery service</h2>
+                  </div>
+                  <span class="service-good"><i data-lucide="circle-check"></i> Good service</span>
+                </div>
+
+                <p class="board-description">
+                  Spend one ticket to meet a train, tram, bus or ferry from around Australia.
+                </p>
+
+                <div class="service-row">
+                  <span class="route-icon"><i data-lucide="train-front"></i></span>
+                  <div>
+                    <strong>All states</strong>
+                    <small>Common to legendary vehicles</small>
+                  </div>
+                  <span class="service-cost"><i data-lucide="ticket"></i> 1</span>
+                </div>
+
+                <button class="board-button" id="hero-pull" data-pull="1">
+                  Board next service
+                  <i data-lucide="arrow-right"></i>
+                </button>
+
+                <button class="board-button express" data-pull="10">
+                  Express run ×10
+                  <span class="express-cost"><i data-lucide="ticket"></i> 9 — save 1</span>
+                </button>
+
+                <div class="pity-block">
+                  <div class="pity-row">
+                    <span>Epic or better guaranteed</span>
+                    <strong id="pity-epic-label"></strong>
+                  </div>
+                  <div class="pity-bar"><i id="pity-epic-fill"></i></div>
+                  <div class="pity-row">
+                    <span>Legendary guaranteed</span>
+                    <strong id="pity-legend-label"></strong>
+                  </div>
+                  <div class="pity-bar legend"><i id="pity-legend-fill"></i></div>
+                </div>
+
+                <div class="quest-row" id="quest-row"></div>
+
+                <div class="daily-row">
+                  <div>
+                    <i data-lucide="calendar-check"></i>
+                    <span><strong>Daily ticket delivery</strong><small id="daily-status">Available now</small></span>
+                  </div>
+                  <button id="daily-button">Collect +3</button>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <section class="home-content">
+            <div class="latest-section">
+              <div class="section-heading">
+                <div>
+                  <span class="kicker">RECENT SERVICES</span>
+                  <h2>Latest arrivals</h2>
+                </div>
+                <button class="text-button" data-view-link="garage">
+                  View full collection <i data-lucide="arrow-right"></i>
+                </button>
+              </div>
+              <div class="recent-grid" id="recent-grid"></div>
+            </div>
+
+            <aside class="how-to-panel">
+              <span class="kicker">QUICK GUIDE</span>
+              <h2>How to play</h2>
+              <ol>
+                <li><span>1</span><p><strong>Collect tickets</strong>Daily streaks grow your reward, and a free ticket arrives every 15 minutes.</p></li>
+                <li><span>2</span><p><strong>Board services</strong>Epics are guaranteed within 10 pulls, legendaries within 30.</p></li>
+                <li><span>3</span><p><strong>Hunt limited liveries</strong>Rare gold variants of every vehicle. Duplicates earn stamps for the exchange.</p></li>
+                <li><span>4</span><p><strong>Visit the Depot</strong>Claim achievement rewards and trade stamps for tickets.</p></li>
+              </ol>
+              <div class="mini-progress">
+                <span>Collection progress</span>
+                <strong id="home-completion">0 / 0</strong>
+                <div><i id="home-completion-fill"></i></div>
+              </div>
+            </aside>
+          </section>
+        </section>
+
+        <section class="view" id="garage-view">
+          <div class="page-header">
+            <div>
+              <span class="kicker">YOUR NETWORK</span>
+              <h1>My collection</h1>
+              <p id="collection-summary">0 of 0 vehicles collected</p>
+            </div>
+            <div class="completion-block">
+              <strong id="completion-percent">0%</strong>
+              <span>COMPLETE</span>
+            </div>
+          </div>
+
+          <div class="garage-toolbar">
+            <label class="search-box">
+              <i data-lucide="search"></i>
+              <input id="vehicle-search" type="search" placeholder="Search vehicle, city or operator" />
+            </label>
+            <div class="filter-row" id="state-filters"></div>
+            <button class="icon-button" id="sort-button" title="Change sort order">
+              <i data-lucide="arrow-up-down"></i>
+            </button>
+          </div>
+
+          <div class="garage-grid" id="garage-grid"></div>
+        </section>
+
+        <section class="view" id="field-guide-view">
+          <div class="page-header guide-header">
+            <div>
+              <span class="kicker">AROUND AUSTRALIA</span>
+              <h1>Network guide</h1>
+              <p>Explore the vehicles waiting to arrive from each state.</p>
+            </div>
+            <div class="guide-key">
+              <span><i data-lucide="train-front"></i> Rail</span>
+              <span><i data-lucide="tram-front"></i> Tram</span>
+              <span><i data-lucide="bus-front"></i> Bus</span>
+              <span><i data-lucide="ship"></i> Ferry</span>
+            </div>
+          </div>
+          <div class="route-map" id="route-map"></div>
+        </section>
+
+        <section class="view" id="rewards-view">
+          <div class="page-header">
+            <div>
+              <span class="kicker">THE DEPOT</span>
+              <h1>Rewards depot</h1>
+              <p>Streaks, achievements and the stamp exchange.</p>
+            </div>
+            <div class="completion-block">
+              <strong id="depot-level">Lv 1</strong>
+              <span>CONDUCTOR LEVEL</span>
+            </div>
+          </div>
+          <div class="depot-layout">
+            <div class="depot-side">
+              <div class="depot-card" id="depot-stats"></div>
+              <div class="depot-card" id="stamp-exchange"></div>
+            </div>
+            <div class="achievement-grid" id="achievement-grid"></div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <dialog id="reveal-dialog" class="reveal-dialog">
+      <div class="reveal-shell">
+        <button class="dialog-close" data-close-dialog title="Close">
+          <i data-lucide="x"></i>
+        </button>
+        <div class="reveal-heading">
+          <span class="kicker">SERVICE HAS ARRIVED</span>
+          <h2 id="reveal-title">New arrival</h2>
+          <p id="reveal-subtitle">Your latest service is ready.</p>
+        </div>
+        <div id="reveal-results" class="reveal-results"></div>
+        <button class="board-button dialog-done" data-close-dialog>Back to the platform</button>
+      </div>
+    </dialog>
+
+    <dialog id="detail-dialog" class="detail-dialog">
+      <div id="detail-content"></div>
+    </dialog>
+
+    <div class="toast-region" id="toast-region" aria-live="polite"></div>
+
+    <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
