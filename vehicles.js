@@ -1163,10 +1163,10 @@ const vehicles = [
     capacity: "~170",
     tagline: "Wackadoo! The Bluey-wrapped CityCat.",
     description:
-      "To celebrate Brisbane's most famous Heeler family, one CityCat was wrapped nose to stern in Bluey livery and christened the CityDog. The rarest sighting on the river. (Pictured in standard livery — Bluey's artwork belongs to the Heelers.)",
+      "To celebrate Brisbane's most famous Heeler family, one CityCat was wrapped nose to stern in Bluey livery and christened the CityDog. The rarest sighting on the river.",
     file: "CityCat Baneraba and CityCat Barrambin berthed at North Quay Ferry Terminal Brisbane P1190374.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/CityCat_Baneraba_and_CityCat_Barrambin_berthed_at_North_Quay_Ferry_Terminal_Brisbane_P1190374.jpg/500px-CityCat_Baneraba_and_CityCat_Barrambin_berthed_at_North_Quay_Ferry_Terminal_Brisbane_P1190374.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/CityCat_Baneraba_and_CityCat_Barrambin_berthed_at_North_Quay_Ferry_Terminal_Brisbane_P1190374.jpg/1280px-CityCat_Baneraba_and_CityCat_Barrambin_berthed_at_North_Quay_Ferry_Terminal_Brisbane_P1190374.jpg",
+    image: "https://www.bluey.tv/wp-content/uploads/2024/10/CityDogs4-scaled.jpg",
+    imageLarge: "https://www.bluey.tv/wp-content/uploads/2024/10/CityDogs4-scaled.jpg",
     source: "https://en.wikipedia.org/wiki/RiverCity_Ferries",
   },
   {
