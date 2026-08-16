@@ -1685,9 +1685,9 @@ const vehicles = [
     tagline: "The world's first bullet train. A legend retired.",
     description:
       "The Series 0 Shinkansen revolutionized rail travel when it debuted for Tokyo's 1964 Olympics, becoming the world's first commercial high-speed passenger train. Its rounded white nose became an icon of Japan's post-war engineering miracle. The last set retired in 2008 after 44 years of service.",
-    file: "Shinkansen 0.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Shinkansen_0.jpg/500px-Shinkansen_0.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Shinkansen_0.jpg/1280px-Shinkansen_0.jpg",
+    file: "Shinkansen 0 series 001.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Shinkansen_0_series_001.jpg/500px-Shinkansen_0_series_001.jpg",
+    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Shinkansen_0_series_001.jpg/1280px-Shinkansen_0_series_001.jpg",
     source: "https://en.wikipedia.org/wiki/Shinkansen_0_series",
   },
   {
@@ -1706,9 +1706,9 @@ const vehicles = [
     tagline: "Sleek and aerodynamic: the modern Tokaido line.",
     description:
       "The Series 700 refined the Shinkansen aesthetic with a more aerodynamic nose and advanced safety features. It has carried millions of commuters between Tokyo and Osaka on the Tokaido line and represents the marriage of beauty and engineering.",
-    file: "Shinkansen-700 2009-05-24 (cropped).jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Shinkansen-700_2009-05-24_%28cropped%29.jpg/500px-Shinkansen-700_2009-05-24_%28cropped%29.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Shinkansen-700_2009-05-24_%28cropped%29.jpg/1280px-Shinkansen-700_2009-05-24_%28cropped%29.jpg",
+    file: "JR Central 700 Shinkansen.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/JR_Central_700_Shinkansen.jpg/500px-JR_Central_700_Shinkansen.jpg",
+    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/JR_Central_700_Shinkansen.jpg/1280px-JR_Central_700_Shinkansen.jpg",
     source: "https://en.wikipedia.org/wiki/Shinkansen_700_series",
   },
   {
@@ -1727,9 +1727,9 @@ const vehicles = [
     tagline: "The next generation: AI-equipped and sleek.",
     description:
       "The newest Shinkansen variant features AI-driven optimization, lightweight materials, and improved comfort. With enhanced aerodynamics and energy efficiency, it represents the cutting edge of Japanese rail technology — the bullet train's future.",
-    file: "JR Central N700S type 01 formation 04.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/JR_Central_N700S_type_01_formation_04.jpg/500px-JR_Central_N700S_type_01_formation_04.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/JR_Central_N700S_type_01_formation_04.jpg/1280px-JR_Central_N700S_type_01_formation_04.jpg",
+    file: "Shinkansen N700S 01 formation.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Shinkansen_N700S_01_formation.jpg/500px-Shinkansen_N700S_01_formation.jpg",
+    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Shinkansen_N700S_01_formation.jpg/1280px-Shinkansen_N700S_01_formation.jpg",
     source: "https://en.wikipedia.org/wiki/Shinkansen_N700S",
   },
   {
@@ -1748,9 +1748,9 @@ const vehicles = [
     tagline: "The efficient workhorse of Tokyo's underground.",
     description:
       "Tokyo Metro's 1000 series trains serve the famous Ginza line and other routes, shuttling salarymen and schoolchildren through the dense urban underground. The gold-and-white livery is a fixture of daily Tokyo life.",
-    file: "Tokyo_metro_Ginza_line_1000_series.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Tokyo_metro_Ginza_line_1000_series.jpg/500px-Tokyo_metro_Ginza_line_1000_series.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Tokyo_metro_Ginza_line_1000_series.jpg/1280px-Tokyo_metro_Ginza_line_1000_series.jpg",
+    file: "Tokyo Metro 1000 series Ginza Line.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Tokyo_Metro_1000_series_Ginza_Line.jpg/500px-Tokyo_Metro_1000_series_Ginza_Line.jpg",
+    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Tokyo_Metro_1000_series_Ginza_Line.jpg/1280px-Tokyo_Metro_1000_series_Ginza_Line.jpg",
     source: "https://en.wikipedia.org/wiki/Tokyo_Metro_1000_series",
   },
   {
@@ -1769,9 +1769,9 @@ const vehicles = [
     tagline: "The green loop that never stops turning.",
     description:
       "The Yamanote Line is the beating heart of Tokyo, a complete loop connecting 30 stations in an endless circle. The latest E235 series features AC24/12 traction and ultra-modern comfort.",
-    file: "JR East E235 series Yamanote Line 01 formation 01.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/JR_East_E235_series_Yamanote_Line_01_formation_01.jpg/500px-JR_East_E235_series_Yamanote_Line_01_formation_01.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/JR_East_E235_series_Yamanote_Line_01_formation_01.jpg/1280px-JR_East_E235_series_Yamanote_Line_01_formation_01.jpg",
+    file: "JR East E235 series Yamanote Line.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/JR_East_E235_series_Yamanote_Line.jpg/500px-JR_East_E235_series_Yamanote_Line.jpg",
+    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/JR_East_E235_series_Yamanote_Line.jpg/1280px-JR_East_E235_series_Yamanote_Line.jpg",
     source: "https://en.wikipedia.org/wiki/JR_East_E235_series",
   },
   {
@@ -1790,9 +1790,9 @@ const vehicles = [
     tagline: "Clinking through Kyoto's temples and gardens.",
     description:
       "The Randen is one of Japan's oldest street railways, running through Kyoto's historic districts past temples and bamboo groves. Its vintage charm makes it one of Japan's most photographed transit systems.",
-    file: "Keifukuelectricrailway.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Keifukuelectricrailway.jpg/500px-Keifukuelectricrailway.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Keifukuelectricrailway.jpg/1280px-Keifukuelectricrailway.jpg",
+    file: "Keifuku Randen streetcar Kyoto.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Keifuku_Randen_streetcar_Kyoto.jpg/500px-Keifuku_Randen_streetcar_Kyoto.jpg",
+    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Keifuku_Randen_streetcar_Kyoto.jpg/1280px-Keifuku_Randen_streetcar_Kyoto.jpg",
     source: "https://en.wikipedia.org/wiki/Keifuku_Electric_Railway",
   },
 
@@ -1813,9 +1813,9 @@ const vehicles = [
     tagline: "Germany's high-speed standard, sleek in white.",
     description:
       "The ICE 3 connects German cities at speeds up to 320 km/h with a distinctive aerodynamic design. It represents German engineering precision and has become an icon of modern European rail travel.",
-    file: "ICE 3.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/ICE_3.jpg/500px-ICE_3.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/ICE_3.jpg/1280px-ICE_3.jpg",
+    file: "DB ICE 3 Köln Hauptbahnhof.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/DB_ICE_3_K%C3%B6ln_Hauptbahnhof.jpg/500px-DB_ICE_3_K%C3%B6ln_Hauptbahnhof.jpg",
+    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/DB_ICE_3_K%C3%B6ln_Hauptbahnhof.jpg/1280px-DB_ICE_3_K%C3%B6ln_Hauptbahnhof.jpg",
     source: "https://en.wikipedia.org/wiki/ICE_3",
   },
   {
@@ -1834,9 +1834,9 @@ const vehicles = [
     tagline: "The red line through Bavaria's capital.",
     description:
       "Munich's U-Bahn network and its distinctive Type C trains are integral to the city's Bavarian identity. The system seamlessly connects the city centre with the suburbs and major attractions.",
-    file: "Muenchen U-Bahn.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Muenchen_U-Bahn.jpg/500px-Muenchen_U-Bahn.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Muenchen_U-Bahn.jpg/1280px-Muenchen_U-Bahn.jpg",
+    file: "Munich U-Bahn Type C.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Munich_U-Bahn_Type_C.jpg/500px-Munich_U-Bahn_Type_C.jpg",
+    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Munich_U-Bahn_Type_C.jpg/1280px-Munich_U-Bahn_Type_C.jpg",
     source: "https://en.wikipedia.org/wiki/Munich_U-Bahn",
   },
   {
@@ -1855,9 +1855,9 @@ const vehicles = [
     tagline: "The workhorse of divided and unified Berlin.",
     description:
       "The F75 has defined Berlin's underground for half a century, spanning both East and West Berlin and continuing to serve the reunified city. A symbol of Berlin's history and resilience.",
-    file: "Berlin U-Bahn F75 Wittenbergplatz.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Berlin_U-Bahn_F75_Wittenbergplatz.jpg/500px-Berlin_U-Bahn_F75_Wittenbergplatz.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Berlin_U-Bahn_F75_Wittenbergplatz.jpg/1280px-Berlin_U-Bahn_F75_Wittenbergplatz.jpg",
+    file: "Berlin U-Bahn F75 train.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Berlin_U-Bahn_F75_train.jpg/500px-Berlin_U-Bahn_F75_train.jpg",
+    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Berlin_U-Bahn_F75_train.jpg/1280px-Berlin_U-Bahn_F75_train.jpg",
     source: "https://en.wikipedia.org/wiki/Berlin_U-Bahn_F75",
   },
   {
@@ -1876,9 +1876,9 @@ const vehicles = [
     tagline: "Modern metro for Germany's gateway to the world.",
     description:
       "Hamburg's newest U-Bahn trains feature fully driverless operation and cutting-edge climate control. They represent the future of German metro design.",
-    file: "Hamburg_U-Bahn_DX.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Hamburg_U-Bahn_DX.jpg/500px-Hamburg_U-Bahn_DX.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Hamburg_U-Bahn_DX.jpg/1280px-Hamburg_U-Bahn_DX.jpg",
+    file: "Hamburg U-Bahn DX Driverless Train.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Hamburg_U-Bahn_DX_Driverless_Train.jpg/500px-Hamburg_U-Bahn_DX_Driverless_Train.jpg",
+    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Hamburg_U-Bahn_DX_Driverless_Train.jpg/1280px-Hamburg_U-Bahn_DX_Driverless_Train.jpg",
     source: "https://en.wikipedia.org/wiki/Hamburg_U-Bahn",
   },
   {
@@ -1897,9 +1897,9 @@ const vehicles = [
     tagline: "Through the financial capital's underground.",
     description:
       "Frankfurt's U-Bahn Type C trains connect the financial district with residential areas and the airport, making them one of Europe's busiest metro systems.",
-    file: "U-Bahn_Frankfurt_Type_C.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/U-Bahn_Frankfurt_Type_C.jpg/500px-U-Bahn_Frankfurt_Type_C.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/U-Bahn_Frankfurt_Type_C.jpg/1280px-U-Bahn_Frankfurt_Type_C.jpg",
+    file: "Frankfurt U-Bahn C-Baureihe.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Frankfurt_U-Bahn_C-Baureihe.jpg/500px-Frankfurt_U-Bahn_C-Baureihe.jpg",
+    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Frankfurt_U-Bahn_C-Baureihe.jpg/1280px-Frankfurt_U-Bahn_C-Baureihe.jpg",
     source: "https://en.wikipedia.org/wiki/Frankfurt_U-Bahn",
   },
   {
@@ -1918,9 +1918,9 @@ const vehicles = [
     tagline: "Traditional streetcars in a cathedral city.",
     description:
       "Cologne's yellow-and-red trams are classic European street railways, running through medieval streets with views of the famous Dom cathedral. The K-type is the latest generation.",
-    file: "Cologne Tram K-type.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/K-type_Cologne_tram.jpg/500px-K-type_Cologne_tram.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/K-type_Cologne_tram.jpg/1280px-K-type_Cologne_tram.jpg",
+    file: "KVB Cologne K-type tram.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/KVB_Cologne_K-type_tram.jpg/500px-KVB_Cologne_K-type_tram.jpg",
+    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/KVB_Cologne_K-type_tram.jpg/1280px-KVB_Cologne_K-type_tram.jpg",
     source: "https://en.wikipedia.org/wiki/Cologne_Straßenbahn",
   },
 
@@ -1941,9 +1941,9 @@ const vehicles = [
     tagline: "France's new high-speed standard: sleek and connected.",
     description:
       "The TGV InOui modernizes France's legendary high-speed rail with contemporary design, WiFi connectivity, and energy efficiency. It represents the pride of French railway innovation.",
-    file: "TGV INOUIE.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/TGV_INOUIE.jpg/500px-TGV_INOUIE.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/TGV_INOUIE.jpg/1280px-TGV_INOUIE.jpg",
+    file: "SNCF TGV InOui Paris.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/SNCF_TGV_InOui_Paris.jpg/500px-SNCF_TGV_InOui_Paris.jpg",
+    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/SNCF_TGV_InOui_Paris.jpg/1280px-SNCF_TGV_InOui_Paris.jpg",
     source: "https://en.wikipedia.org/wiki/TGV_InOui",
   },
   {
@@ -1959,12 +1959,12 @@ const vehicles = [
     service: "2019-present",
     speed: "70 km/h",
     capacity: "~1,100",
-    tagline: "Modern rubber wheels on the Line of Light.",
+    tagline: "Modern rubber wheels on the Métro.",
     description:
-      "The MP14 (Métro du Phénomène) brings automation and climate control to Paris's legendary Metro. Fully driverless and representing the future of the world's oldest metro system.",
-    file: "RATP_MP14_Ligne_1_Paris.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/RATP_MP14_Ligne_1_Paris.jpg/500px-RATP_MP14_Ligne_1_Paris.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/RATP_MP14_Ligne_1_Paris.jpg/1280px-RATP_MP14_Ligne_1_Paris.jpg",
+      "The MP14 brings automation and climate control to Paris's legendary Metro. Fully driverless and representing the future of the world's oldest metro system.",
+    file: "Paris Metro MP14 train.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Paris_Metro_MP14_train.jpg/500px-Paris_Metro_MP14_train.jpg",
+    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Paris_Metro_MP14_train.jpg/1280px-Paris_Metro_MP14_train.jpg",
     source: "https://en.wikipedia.org/wiki/RATP_MP14",
   },
   {
@@ -1983,9 +1983,9 @@ const vehicles = [
     tagline: "Modern trams through a city of silk and rivers.",
     description:
       "Lyon's newest light rail adds to the city's integrated transit network, connecting the city of silk's historic districts with modern efficiency and sleek Alstom engineering.",
-    file: "Citadis_tram_Lyon.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Citadis_tram_Lyon.jpg/500px-Citadis_tram_Lyon.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Citadis_tram_Lyon.jpg/1280px-Citadis_tram_Lyon.jpg",
+    file: "Alstom Citadis Lyon tram.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Alstom_Citadis_Lyon_tram.jpg/500px-Alstom_Citadis_Lyon_tram.jpg",
+    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Alstom_Citadis_Lyon_tram.jpg/1280px-Alstom_Citadis_Lyon_tram.jpg",
     source: "https://en.wikipedia.org/wiki/Lyon_Citadis",
   },
 
@@ -2006,9 +2006,9 @@ const vehicles = [
     tagline: "British Rail's record-breaker still running the routes.",
     description:
       "The InterCity 125 set the diesel speed record at 201 km/h and has become Britain's most iconic passenger train, working long-distance routes for half a century with minimal change to its timeless design.",
-    file: "InterCity 125 train.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/InterCity_125_train.jpg/500px-InterCity_125_train.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/InterCity_125_train.jpg/1280px-InterCity_125_train.jpg",
+    file: "British Rail HST 125 InterCity.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/British_Rail_HST_125_InterCity.jpg/500px-British_Rail_HST_125_InterCity.jpg",
+    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/British_Rail_HST_125_InterCity.jpg/1280px-British_Rail_HST_125_InterCity.jpg",
     source: "https://en.wikipedia.org/wiki/British_Rail_Class_43",
   },
   {
@@ -2027,9 +2027,9 @@ const vehicles = [
     tagline: "Deep beneath London: the Tube that connects everything.",
     description:
       "The Piccadilly Line is one of London's oldest and most recognizable Underground lines, connecting central London with Heathrow and beyond. The red-branded trains are symbols of British life.",
-    file: "Piccadilly_line_S7_stock.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Piccadilly_line_S7_stock.jpg/500px-Piccadilly_line_S7_stock.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Piccadilly_line_S7_stock.jpg/1280px-Piccadilly_line_S7_stock.jpg",
+    file: "London Underground Piccadilly Line S7.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/London_Underground_Piccadilly_Line_S7.jpg/500px-London_Underground_Piccadilly_Line_S7.jpg",
+    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/London_Underground_Piccadilly_Line_S7.jpg/1280px-London_Underground_Piccadilly_Line_S7.jpg",
     source: "https://en.wikipedia.org/wiki/Piccadilly_line",
   },
   {
@@ -2048,9 +2048,9 @@ const vehicles = [
     tagline: "The iconic red bus, finally back on London streets.",
     description:
       "The Routemaster is the symbol of London itself — a beloved red double-decker with an open rear platform and a cheerful conductor. Retired for years, newer heritage versions now run tourist-friendly routes.",
-    file: "Routemaster_Bus_138_of_London.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Routemaster_Bus_138_of_London.jpg/500px-Routemaster_Bus_138_of_London.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Routemaster_Bus_138_of_London.jpg/1280px-Routemaster_Bus_138_of_London.jpg",
+    file: "AEC Routemaster RM1950 London bus heritage route.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/AEC_Routemaster_RM1950_London_bus_heritage_route.jpg/500px-AEC_Routemaster_RM1950_London_bus_heritage_route.jpg",
+    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/AEC_Routemaster_RM1950_London_bus_heritage_route.jpg/1280px-AEC_Routemaster_RM1950_London_bus_heritage_route.jpg",
     source: "https://en.wikipedia.org/wiki/Routemaster",
   },
   {
@@ -2069,9 +2069,9 @@ const vehicles = [
     tagline: "Trams return to Scotland's capital on a single line.",
     description:
       "After 75 years without trams, Edinburgh brought them back with this modern Citadis line connecting the city centre with the airport through Edinburgh's elegant Georgian streets.",
-    file: "Edinburgh-Tram-2014-03-30.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Edinburgh-Tram-2014-03-30.jpg/500px-Edinburgh-Tram-2014-03-30.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Edinburgh-Tram-2014-03-30.jpg/1280px-Edinburgh-Tram-2014-03-30.jpg",
+    file: "Edinburgh Tram Citadis X05.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Edinburgh_Tram_Citadis_X05.jpg/500px-Edinburgh_Tram_Citadis_X05.jpg",
+    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Edinburgh_Tram_Citadis_X05.jpg/1280px-Edinburgh_Tram_Citadis_X05.jpg",
     source: "https://en.wikipedia.org/wiki/Edinburgh_Tram",
   },
 
@@ -2092,9 +2092,9 @@ const vehicles = [
     tagline: "Modernizing the busiest subway on Earth.",
     description:
       "The R211 replaces the aging R62 and R62A trains on the NYC subway with full Wi-Fi, better ventilation, and digital displays. It represents a major modernization of the world's most used rapid transit system.",
-    file: "R211 A Division.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/R211_A_Division.jpg/500px-R211_A_Division.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/R211_A_Division.jpg/1280px-R211_A_Division.jpg",
+    file: "MTA R211 New York City Subway.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/MTA_R211_New_York_City_Subway.jpg/500px-MTA_R211_New_York_City_Subway.jpg",
+    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/MTA_R211_New_York_City_Subway.jpg/1280px-MTA_R211_New_York_City_Subway.jpg",
     source: "https://en.wikipedia.org/wiki/R211_(train)",
   },
   {
@@ -2113,9 +2113,9 @@ const vehicles = [
     tagline: "Steel wheels on steel tracks above the Windy City.",
     description:
       "Chicago's elevated 'L' is the second-oldest metro system in North America and an iconic part of the city's skyline. The trains roar around the elevated Loop circuit in downtown Chicago.",
-    file: "CTA_Brown_Line_Train.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/CTA_Brown_Line_Train.jpg/500px-CTA_Brown_Line_Train.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/CTA_Brown_Line_Train.jpg/1280px-CTA_Brown_Line_Train.jpg",
+    file: "Chicago L Train CTA elevated.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Chicago_L_Train_CTA_elevated.jpg/500px-Chicago_L_Train_CTA_elevated.jpg",
+    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Chicago_L_Train_CTA_elevated.jpg/1280px-Chicago_L_Train_CTA_elevated.jpg",
     source: "https://en.wikipedia.org/wiki/Chicago_L",
   },
   {
@@ -2134,9 +2134,9 @@ const vehicles = [
     tagline: "Linking the Bay Area over and under water.",
     description:
       "BART's distinctive red trains connect San Francisco with the East Bay, crossing the iconic bay on elevated tracks and through the tube beneath the water. A symbol of West Coast transit ambition.",
-    file: "BART_train_at_Embarcadero_station.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/BART_train_at_Embarcadero_station.jpg/500px-BART_train_at_Embarcadero_station.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/BART_train_at_Embarcadero_station.jpg/1280px-BART_train_at_Embarcadero_station.jpg",
+    file: "BART Bay Area Rapid Transit train.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/BART_Bay_Area_Rapid_Transit_train.jpg/500px-BART_Bay_Area_Rapid_Transit_train.jpg",
+    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/BART_Bay_Area_Rapid_Transit_train.jpg/1280px-BART_Bay_Area_Rapid_Transit_train.jpg",
     source: "https://en.wikipedia.org/wiki/BART",
   },
 
@@ -2157,9 +2157,9 @@ const vehicles = [
     tagline: "Japanese engineering in Hong Kong's subway.",
     description:
       "MTR's newest trains use Tokyo stock platforms adapted for Hong Kong's system. These represent the cutting edge of Asian metro efficiency and reliability.",
-    file: "MTR_Tokyo_stock.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/MTR_Tokyo_stock.jpg/500px-MTR_Tokyo_stock.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/MTR_Tokyo_stock.jpg/1280px-MTR_Tokyo_stock.jpg",
+    file: "Hong Kong MTR Tokyo Stock train.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Hong_Kong_MTR_Tokyo_Stock_train.jpg/500px-Hong_Kong_MTR_Tokyo_Stock_train.jpg",
+    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Hong_Kong_MTR_Tokyo_Stock_train.jpg/1280px-Hong_Kong_MTR_Tokyo_Stock_train.jpg",
     source: "https://en.wikipedia.org/wiki/MTR",
   },
   {
@@ -2178,9 +2178,9 @@ const vehicles = [
     tagline: "Double-deckers clinking up Hong Kong's hills.",
     description:
       "Hong Kong's famous double-deck trams navigate steep grades and sharp turns on Hong Kong Island, offering some of the best views of the harbour. They've been running since 1904 with minimal changes.",
-    file: "Hong_Kong_Tramways.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Hong_Kong_Tramways.jpg/500px-Hong_Kong_Tramways.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Hong_Kong_Tramways.jpg/1280px-Hong_Kong_Tramways.jpg",
+    file: "Hong Kong double-deck tram.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Hong_Kong_double-deck_tram.jpg/500px-Hong_Kong_double-deck_tram.jpg",
+    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Hong_Kong_double-deck_tram.jpg/1280px-Hong_Kong_double-deck_tram.jpg",
     source: "https://en.wikipedia.org/wiki/Hong_Kong_Tramways",
   },
 
@@ -2201,9 +2201,9 @@ const vehicles = [
     tagline: "Automating Singapore's efficient metro.",
     description:
       "Singapore's C151 trains are among the world's most advanced, featuring driverless operation and extreme reliability. They exemplify Singapore's pursuit of cutting-edge transport technology.",
-    file: "SMRT_C151_train.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/SMRT_C151.jpg/500px-SMRT_C151.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/SMRT_C151.jpg/1280px-SMRT_C151.jpg",
+    file: "Singapore MRT C151 train driverless.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Singapore_MRT_C151_train_driverless.jpg/500px-Singapore_MRT_C151_train_driverless.jpg",
+    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Singapore_MRT_C151_train_driverless.jpg/1280px-Singapore_MRT_C151_train_driverless.jpg",
     source: "https://en.wikipedia.org/wiki/Singapore_MRT",
   },
 
@@ -2224,9 +2224,9 @@ const vehicles = [
     tagline: "New trains for Canada's busiest transit.",
     description:
       "Toronto's T1 represents a major modernization, replacing older trains on the Line 1 Yonge-University corridor with advanced features and improved capacity.",
-    file: "TTC_T1_train.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/TTC_T1_exterior.jpg/500px-TTC_T1_exterior.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/TTC_T1_exterior.jpg/1280px-TTC_T1_exterior.jpg",
+    file: "TTC Toronto T1 subway train.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/TTC_Toronto_T1_subway_train.jpg/500px-TTC_Toronto_T1_subway_train.jpg",
+    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/TTC_Toronto_T1_subway_train.jpg/1280px-TTC_Toronto_T1_subway_train.jpg",
     source: "https://en.wikipedia.org/wiki/Toronto_subway",
   },
   {
@@ -2245,9 +2245,9 @@ const vehicles = [
     tagline: "Driverless trains elevated above Vancouver.",
     description:
       "The SkyTrain was one of North America's first driverless metro systems, running elevated and underground through Vancouver's sprawling landscape. A pioneering automated system that still impresses.",
-    file: "SkyTrain_Vancouver.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/SkyTrain_Vancouver.jpg/500px-SkyTrain_Vancouver.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/SkyTrain_Vancouver.jpg/1280px-SkyTrain_Vancouver.jpg",
+    file: "TransLink Vancouver SkyTrain driverless.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/TransLink_Vancouver_SkyTrain_driverless.jpg/500px-TransLink_Vancouver_SkyTrain_driverless.jpg",
+    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/TransLink_Vancouver_SkyTrain_driverless.jpg/1280px-TransLink_Vancouver_SkyTrain_driverless.jpg",
     source: "https://en.wikipedia.org/wiki/SkyTrain",
   },
 ];
