@@ -1685,9 +1685,9 @@ const vehicles = [
     tagline: "The world's first bullet train. A legend retired.",
     description:
       "The Series 0 Shinkansen revolutionized rail travel when it debuted for Tokyo's 1964 Olympics, becoming the world's first commercial high-speed passenger train. Its rounded white nose became an icon of Japan's post-war engineering miracle. The last set retired in 2008 after 44 years of service.",
-    file: "Shinkansen 0 series.jpg",
-    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Shinkansen%200%20series.jpg?width=500",
-    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Shinkansen%200%20series.jpg?width=1280",
+    file: "Shinkansen0.JPG",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Shinkansen0.JPG?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Shinkansen0.JPG?width=1280",
     source: "https://en.wikipedia.org/wiki/Shinkansen_0_series",
   },
   {
@@ -1727,9 +1727,9 @@ const vehicles = [
     tagline: "The next generation: AI-equipped and sleek.",
     description:
       "The newest Shinkansen variant features AI-driven optimization, lightweight materials, and improved comfort. With enhanced aerodynamics and energy efficiency, it represents the cutting edge of Japanese rail technology — the bullet train's future.",
-    file: "Shinkansen N700S 01 formation.jpg",
-    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Shinkansen_N700S_01_formation.jpg?width=500",
-    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Shinkansen_N700S_01_formation.jpg?width=1280",
+    file: "Shinkansen N700S.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Shinkansen%20N700S.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Shinkansen%20N700S.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Shinkansen_N700S",
   },
   {
@@ -1813,9 +1813,9 @@ const vehicles = [
     tagline: "Germany's high-speed standard, sleek in white.",
     description:
       "The ICE 3 connects German cities at speeds up to 320 km/h with a distinctive aerodynamic design. It represents German engineering precision and has become an icon of modern European rail travel.",
-    file: "DB ICE 3 Köln Hauptbahnhof.jpg",
-    image: "https://commons.wikimedia.org/wiki/Special:FilePath/DB_ICE_3_K%C3%B6ln_Hauptbahnhof.jpg?width=500",
-    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/DB_ICE_3_K%C3%B6ln_Hauptbahnhof.jpg?width=1280",
+    file: "DB ICE 3.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/DB%20ICE%203.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/DB%20ICE%203.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/ICE_3",
   },
   {
@@ -2006,9 +2006,9 @@ const vehicles = [
     tagline: "British Rail's record-breaker still running the routes.",
     description:
       "The InterCity 125 set the diesel speed record at 201 km/h and has become Britain's most iconic passenger train, working long-distance routes for half a century with minimal change to its timeless design.",
-    file: "British Rail HST 125 InterCity.jpg",
-    image: "https://commons.wikimedia.org/wiki/Special:FilePath/British_Rail_HST_125_InterCity.jpg?width=500",
-    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/British_Rail_HST_125_InterCity.jpg?width=1280",
+    file: "British Rail HST 125.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/British%20Rail%20HST%20125.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/British%20Rail%20HST%20125.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/British_Rail_Class_43",
   },
   {
@@ -2048,9 +2048,9 @@ const vehicles = [
     tagline: "The iconic red bus, finally back on London streets.",
     description:
       "The Routemaster is the symbol of London itself — a beloved red double-decker with an open rear platform and a cheerful conductor. Retired for years, newer heritage versions now run tourist-friendly routes.",
-    file: "AEC Routemaster RM1950 London bus heritage route.jpg",
-    image: "https://commons.wikimedia.org/wiki/Special:FilePath/AEC_Routemaster_RM1950_London_bus_heritage_route.jpg?width=500",
-    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/AEC_Routemaster_RM1950_London_bus_heritage_route.jpg?width=1280",
+    file: "AEC Routemaster bus.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/AEC%20Routemaster%20bus.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/AEC%20Routemaster%20bus.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Routemaster",
   },
   {
@@ -2069,9 +2069,9 @@ const vehicles = [
     tagline: "Trams return to Scotland's capital on a single line.",
     description:
       "After 75 years without trams, Edinburgh brought them back with this modern Citadis line connecting the city centre with the airport through Edinburgh's elegant Georgian streets.",
-    file: "Edinburgh Tram Citadis X05.jpg",
-    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Edinburgh_Tram_Citadis_X05.jpg?width=500",
-    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Edinburgh_Tram_Citadis_X05.jpg?width=1280",
+    file: "Edinburgh Tram Citadis.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Edinburgh%20Tram%20Citadis.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Edinburgh%20Tram%20Citadis.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Edinburgh_Tram",
   },
 
@@ -2224,9 +2224,9 @@ const vehicles = [
     tagline: "New trains for Canada's busiest transit.",
     description:
       "Toronto's T1 represents a major modernization, replacing older trains on the Line 1 Yonge-University corridor with advanced features and improved capacity.",
-    file: "TTC Toronto T1 subway train.jpg",
-    image: "https://commons.wikimedia.org/wiki/Special:FilePath/TTC_Toronto_T1_subway_train.jpg?width=500",
-    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/TTC_Toronto_T1_subway_train.jpg?width=1280",
+    file: "TTC Toronto T1 train.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/TTC%20Toronto%20T1%20train.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/TTC%20Toronto%20T1%20train.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Toronto_subway",
   },
   {
@@ -2245,9 +2245,9 @@ const vehicles = [
     tagline: "Driverless trains elevated above Vancouver.",
     description:
       "The SkyTrain was one of North America's first driverless metro systems, running elevated and underground through Vancouver's sprawling landscape. A pioneering automated system that still impresses.",
-    file: "TransLink Vancouver SkyTrain driverless.jpg",
-    image: "https://commons.wikimedia.org/wiki/Special:FilePath/TransLink_Vancouver_SkyTrain_driverless.jpg?width=500",
-    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/TransLink_Vancouver_SkyTrain_driverless.jpg?width=1280",
+    file: "Vancouver SkyTrain Millennium.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Vancouver%20SkyTrain%20Millennium.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Vancouver%20SkyTrain%20Millennium.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/SkyTrain",
   },
 ];
