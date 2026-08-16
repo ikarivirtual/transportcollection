@@ -20,8 +20,8 @@ const vehicles = [
     description:
       "With well over 500 carriages across two generations, the double-deck Waratah is the largest passenger fleet in Australia. If you tap on somewhere in suburban Sydney, odds are one of these turns up.",
     file: "Sydney Trains A set (Waratah) departing Central Station (2).jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Sydney_Trains_A_set_%28Waratah%29_departing_Central_Station_%282%29.jpg/500px-Sydney_Trains_A_set_%28Waratah%29_departing_Central_Station_%282%29.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Sydney_Trains_A_set_%28Waratah%29_departing_Central_Station_%282%29.jpg/1280px-Sydney_Trains_A_set_%28Waratah%29_departing_Central_Station_%282%29.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Sydney_Trains_A_set_%28Waratah%29_departing_Central_Station_%282%29.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Sydney_Trains_A_set_%28Waratah%29_departing_Central_Station_%282%29.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Sydney_Trains_A_%26_B_sets",
   },
   {
@@ -41,8 +41,8 @@ const vehicles = [
     description:
       "Built in Cardiff, New South Wales for the new millennium, the M set introduced a generation of creature comforts to Sydney's double-deck fleet. Its distinctive traction sound is instantly recognisable to locals.",
     file: "M10approachingCentral.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/M10approachingCentral.jpg/500px-M10approachingCentral.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/M10approachingCentral.jpg/1280px-M10approachingCentral.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/M10approachingCentral.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/M10approachingCentral.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Sydney_Trains_M_set",
   },
   {
@@ -62,8 +62,8 @@ const vehicles = [
     description:
       "The OSCAR was designed for longer outer-suburban runs, with high-backed seating and big luggage racks. H sets are a staple of the South Coast Line between Sydney, Wollongong and Kiama.",
     file: "H48-Orange-Schofields-Oct2025.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/H48-Orange-Schofields-Oct2025.jpg/500px-H48-Orange-Schofields-Oct2025.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/H48-Orange-Schofields-Oct2025.jpg/1280px-H48-Orange-Schofields-Oct2025.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/H48-Orange-Schofields-Oct2025.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/H48-Orange-Schofields-Oct2025.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Sydney_Trains_H_set",
   },
   {
@@ -83,8 +83,8 @@ const vehicles = [
     description:
       "Tangara means 'to go' in Dharug, and these distinctive sloped-front double-deckers have been going for nearly four decades. They remain a core part of Sydney's suburban timetable.",
     file: "20230805 T27 passing through Banksia Railway Station.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/20230805_T27_passing_through_Banksia_Railway_Station.jpg/500px-20230805_T27_passing_through_Banksia_Railway_Station.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/20230805_T27_passing_through_Banksia_Railway_Station.jpg/1280px-20230805_T27_passing_through_Banksia_Railway_Station.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/20230805_T27_passing_through_Banksia_Railway_Station.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/20230805_T27_passing_through_Banksia_Railway_Station.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Sydney_Trains_T_set",
   },
   {
@@ -104,8 +104,8 @@ const vehicles = [
     description:
       "Mariyung is the Darug word for emu, and the D set replaced the much-loved V sets on the Blue Mountains, Central Coast and South Coast runs. Wide two-by-two seating and tray tables make it a long-haul commuter's friend.",
     file: "D44 DSC 0125 Cropped.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/D44_DSC_0125_Cropped.jpg/500px-D44_DSC_0125_Cropped.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/D44_DSC_0125_Cropped.jpg/1280px-D44_DSC_0125_Cropped.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/D44_DSC_0125_Cropped.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/D44_DSC_0125_Cropped.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/NSW_TrainLink_D_set",
   },
   {
@@ -125,8 +125,8 @@ const vehicles = [
     description:
       "Based on the British InterCity 125, the XPT once set the Australian rail speed record at 193 km/h. It still runs the long hauls to Melbourne, Brisbane, Dubbo, Grafton and Casino — catch one while you can, replacements are coming.",
     file: "NSW XPT passenger train Galong, NSW.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/NSW_XPT_passenger_train_Galong%2C_NSW.jpg/500px-NSW_XPT_passenger_train_Galong%2C_NSW.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/NSW_XPT_passenger_train_Galong%2C_NSW.jpg/1280px-NSW_XPT_passenger_train_Galong%2C_NSW.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/NSW_XPT_passenger_train_Galong%2C_NSW.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/NSW_XPT_passenger_train_Galong%2C_NSW.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/New_South_Wales_XPT",
   },
   {
@@ -146,8 +146,8 @@ const vehicles = [
     description:
       "Xplorer railcars cover the regional routes the XPT can't, including Canberra, Griffith, Moree, Armidale and the marathon run to Broken Hill. Country travel with a buffet on board.",
     file: "NSW TrainLink Xplorer 2508.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/NSW_TrainLink_Xplorer_2508.jpg/500px-NSW_TrainLink_Xplorer_2508.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/NSW_TrainLink_Xplorer_2508.jpg/1280px-NSW_TrainLink_Xplorer_2508.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/NSW_TrainLink_Xplorer_2508.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/NSW_TrainLink_Xplorer_2508.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/New_South_Wales_Xplorer",
   },
   {
@@ -167,8 +167,8 @@ const vehicles = [
     description:
       "The Endeavour shares its body with the Xplorer but works shorter outer-regional runs like the Southern Highlands and South Coast beyond the wires. A dependable two-car diesel commuter.",
     file: "Endeavour Railcar - 2851, 2801.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Endeavour_Railcar_-_2851%2C_2801.jpg/500px-Endeavour_Railcar_-_2851%2C_2801.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Endeavour_Railcar_-_2851%2C_2801.jpg/1280px-Endeavour_Railcar_-_2851%2C_2801.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Endeavour_Railcar_-_2851%2C_2801.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Endeavour_Railcar_-_2851%2C_2801.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Endeavour_railcar",
   },
   {
@@ -188,8 +188,8 @@ const vehicles = [
     description:
       "Hunter railcars shuttle between Newcastle, Maitland, Scone and Dungog. They are the smallest trains in the NSW TrainLink fleet and the backbone of the Hunter Line.",
     file: "Hunter railcars 2751 & 2701 (45512879812).jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Hunter_railcars_2751_%26_2701_%2845512879812%29.jpg/500px-Hunter_railcars_2751_%26_2701_%2845512879812%29.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Hunter_railcars_2751_%26_2701_%2845512879812%29.jpg/1280px-Hunter_railcars_2751_%26_2701_%2845512879812%29.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Hunter_railcars_2751_%26_2701_%2845512879812%29.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Hunter_railcars_2751_%26_2701_%2845512879812%29.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Hunter_railcar",
   },
   {
@@ -209,8 +209,8 @@ const vehicles = [
     description:
       "Sydney Metro's six-car Alstom Metropolis trains operate automatically with wide doors and longitudinal seating. The fleet serves the North West, City and Bankstown corridors.",
     file: "Sydney Metro Alstom Metropolis Driverless Train1.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Sydney_Metro_Alstom_Metropolis_Driverless_Train1.jpg/500px-Sydney_Metro_Alstom_Metropolis_Driverless_Train1.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Sydney_Metro_Alstom_Metropolis_Driverless_Train1.jpg/1280px-Sydney_Metro_Alstom_Metropolis_Driverless_Train1.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Sydney_Metro_Alstom_Metropolis_Driverless_Train1.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Sydney_Metro_Alstom_Metropolis_Driverless_Train1.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Sydney_Metro_Metropolis_Stock",
   },
   {
@@ -230,8 +230,8 @@ const vehicles = [
     description:
       "Running in permanently coupled 67-metre pairs, the Citadis X05 is among the longest trams in the world. It serves the L2 and L3 lines from Circular Quay to Randwick and Kingsford.",
     file: "New trams operating in George street Sydney CBD - late December 2019 - 49281061742.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/New_trams_operating_in_George_street_Sydney_CBD_-_late_December_2019_-_49281061742.jpg/500px-New_trams_operating_in_George_street_Sydney_CBD_-_late_December_2019_-_49281061742.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/New_trams_operating_in_George_street_Sydney_CBD_-_late_December_2019_-_49281061742.jpg/1280px-New_trams_operating_in_George_street_Sydney_CBD_-_late_December_2019_-_49281061742.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/New_trams_operating_in_George_street_Sydney_CBD_-_late_December_2019_-_49281061742.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/New_trams_operating_in_George_street_Sydney_CBD_-_late_December_2019_-_49281061742.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/CBD_and_South_East_Light_Rail",
   },
   {
@@ -251,8 +251,8 @@ const vehicles = [
     description:
       "CAF's Urbos 3 has worked the Inner West Light Rail from Central to Dulwich Hill since 2014, and new sets opened the Parramatta Light Rail in 2024. The quiet achiever of Sydney's tram revival.",
     file: "A tram (15860847401).jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/A_tram_%2815860847401%29.jpg/500px-A_tram_%2815860847401%29.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/A_tram_%2815860847401%29.jpg/1280px-A_tram_%2815860847401%29.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/A_tram_%2815860847401%29.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/A_tram_%2815860847401%29.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Inner_West_Light_Rail",
   },
   {
@@ -272,8 +272,8 @@ const vehicles = [
     description:
       "Newcastle's Urbos 100 trams run the 2.7 km line from Newcastle Interchange to the beach with no overhead wires at all, charging from onboard energy storage at each stop.",
     file: "Newcastle Light Rail Queens Wharf.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Newcastle_Light_Rail_Queens_Wharf.jpg/500px-Newcastle_Light_Rail_Queens_Wharf.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Newcastle_Light_Rail_Queens_Wharf.jpg/1280px-Newcastle_Light_Rail_Queens_Wharf.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Newcastle_Light_Rail_Queens_Wharf.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Newcastle_Light_Rail_Queens_Wharf.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Newcastle_Light_Rail",
   },
   {
@@ -293,8 +293,8 @@ const vehicles = [
     description:
       "The mighty Freshwater class is the icon of Sydney Harbour, plowing across the Heads to Manly in any weather. Two vessels survive in weekend service after a public outcry saved them from retirement.",
     file: "Sydney Ferry Collaroy 1 - Nov 2008.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Sydney_Ferry_Collaroy_1_-_Nov_2008.jpg/500px-Sydney_Ferry_Collaroy_1_-_Nov_2008.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Sydney_Ferry_Collaroy_1_-_Nov_2008.jpg/1280px-Sydney_Ferry_Collaroy_1_-_Nov_2008.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Sydney_Ferry_Collaroy_1_-_Nov_2008.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Sydney_Ferry_Collaroy_1_-_Nov_2008.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Freshwater-class_ferry",
   },
   {
@@ -314,8 +314,8 @@ const vehicles = [
     description:
       "Each First Fleet-class catamaran carries the name of a ship from the 1788 First Fleet. They handle the inner-harbour runs to Taronga Zoo, Mosman, Balmain and beyond, and turn 40 still going strong.",
     file: "Scarborough, Pyrmont Bay, 2017 (01).jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Scarborough%2C_Pyrmont_Bay%2C_2017_%2801%29.jpg/500px-Scarborough%2C_Pyrmont_Bay%2C_2017_%2801%29.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Scarborough%2C_Pyrmont_Bay%2C_2017_%2801%29.jpg/1280px-Scarborough%2C_Pyrmont_Bay%2C_2017_%2801%29.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Scarborough%2C_Pyrmont_Bay%2C_2017_%2801%29.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Scarborough%2C_Pyrmont_Bay%2C_2017_%2801%29.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/First_Fleet-class_ferry",
   },
   {
@@ -335,8 +335,8 @@ const vehicles = [
     description:
       "RiverCats were purpose-built to skim the shallow upper reaches of the Parramatta River, and each is named after a famous Australian sportswoman. The wash limits are strict; the views are not.",
     file: "STA Ferry Rivercat Catamaran Shane Gould arriving Parramatta Wharf.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/STA_Ferry_Rivercat_Catamaran_Shane_Gould_arriving_Parramatta_Wharf.jpg/500px-STA_Ferry_Rivercat_Catamaran_Shane_Gould_arriving_Parramatta_Wharf.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/STA_Ferry_Rivercat_Catamaran_Shane_Gould_arriving_Parramatta_Wharf.jpg/1280px-STA_Ferry_Rivercat_Catamaran_Shane_Gould_arriving_Parramatta_Wharf.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/STA_Ferry_Rivercat_Catamaran_Shane_Gould_arriving_Parramatta_Wharf.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/STA_Ferry_Rivercat_Catamaran_Shane_Gould_arriving_Parramatta_Wharf.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/RiverCat-class_ferry",
   },
   {
@@ -356,8 +356,8 @@ const vehicles = [
     description:
       "The Parramatta River class brought fresh hulls to the F3 river run, named for prominent Australians including scientists and Indigenous leaders. Low wash, high speed, and panoramic windows.",
     file: "Parramatta-Class ferry MV Frances Bodkin at Circular Quay.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Parramatta-Class_ferry_MV_Frances_Bodkin_at_Circular_Quay.jpg/500px-Parramatta-Class_ferry_MV_Frances_Bodkin_at_Circular_Quay.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Parramatta-Class_ferry_MV_Frances_Bodkin_at_Circular_Quay.jpg/1280px-Parramatta-Class_ferry_MV_Frances_Bodkin_at_Circular_Quay.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Parramatta-Class_ferry_MV_Frances_Bodkin_at_Circular_Quay.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Parramatta-Class_ferry_MV_Frances_Bodkin_at_Circular_Quay.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Parramatta_River-class_ferry",
   },
   {
@@ -377,8 +377,8 @@ const vehicles = [
     description:
       "The Emerald class carries passengers across Sydney Harbour with bicycle storage, device charging and improved accessibility. Nine vessels span two generations.",
     file: "MV Pemulwuy at Milsons Point, November 2016 (4).jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/MV_Pemulwuy_at_Milsons_Point%2C_November_2016_%284%29.jpg/500px-MV_Pemulwuy_at_Milsons_Point%2C_November_2016_%284%29.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/MV_Pemulwuy_at_Milsons_Point%2C_November_2016_%284%29.jpg/1280px-MV_Pemulwuy_at_Milsons_Point%2C_November_2016_%284%29.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/MV_Pemulwuy_at_Milsons_Point%2C_November_2016_%284%29.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/MV_Pemulwuy_at_Milsons_Point%2C_November_2016_%284%29.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Emerald-class_ferry",
   },
   {
@@ -398,8 +398,8 @@ const vehicles = [
     description:
       "The B-Line brought European-style double-decker buses to the Mona Vale corridor, with turn-up-and-go frequency and famous yellow livery. Upstairs front seats are the unofficial prize.",
     file: "Keolis MAN A95 @ B1, Clarence Street (20231006a) (cropped).jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Keolis_MAN_A95_%40_B1%2C_Clarence_Street_%2820231006a%29_%28cropped%29.jpg/500px-Keolis_MAN_A95_%40_B1%2C_Clarence_Street_%2820231006a%29_%28cropped%29.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Keolis_MAN_A95_%40_B1%2C_Clarence_Street_%2820231006a%29_%28cropped%29.jpg/1280px-Keolis_MAN_A95_%40_B1%2C_Clarence_Street_%2820231006a%29_%28cropped%29.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Keolis_MAN_A95_%40_B1%2C_Clarence_Street_%2820231006a%29_%28cropped%29.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Keolis_MAN_A95_%40_B1%2C_Clarence_Street_%2820231006a%29_%28cropped%29.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/B-Line_(Sydney)",
   },
 
@@ -421,8 +421,8 @@ const vehicles = [
     description:
       "For over five decades the stainless steel V sets hauled commuters up the Blue Mountains and along the Central Coast, their reversible seats and chiming doors a daily ritual. Replaced by the Mariyung after an extraordinary farewell.",
     file: "DKM 8142.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/DKM_8142.jpg/500px-DKM_8142.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/DKM_8142.jpg/1280px-DKM_8142.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/DKM_8142.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/DKM_8142.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/New_South_Wales_V_set",
   },
   {
@@ -443,8 +443,8 @@ const vehicles = [
     description:
       "The K sets kept their 1980s character right to the end — chopper control hum, vinyl seats and all. The final suburban run in December 2024 closed a 43-year chapter of Sydney commuting.",
     file: "Sydney Trains K Set (20231004).jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Sydney_Trains_K_Set_%2820231004%29.jpg/500px-Sydney_Trains_K_Set_%2820231004%29.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Sydney_Trains_K_Set_%2820231004%29.jpg/1280px-Sydney_Trains_K_Set_%2820231004%29.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Sydney_Trains_K_Set_%2820231004%29.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Sydney_Trains_K_Set_%2820231004%29.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Sydney_Trains_K_set",
   },
   {
@@ -464,8 +464,8 @@ const vehicles = [
     description:
       "The 55A and 55C Gong Shuttle loop Wollongong's CBD, university and hospital completely free of charge — one of the few fare-free bus routes in New South Wales and an Illawarra institution.",
     file: "20250227 7443 MO at Illawarra Performing Arts Centre.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/20250227_7443_MO_at_Illawarra_Performing_Arts_Centre.jpg/500px-20250227_7443_MO_at_Illawarra_Performing_Arts_Centre.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/20250227_7443_MO_at_Illawarra_Performing_Arts_Centre.jpg/1280px-20250227_7443_MO_at_Illawarra_Performing_Arts_Centre.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/20250227_7443_MO_at_Illawarra_Performing_Arts_Centre.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/20250227_7443_MO_at_Illawarra_Performing_Arts_Centre.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/List_of_free_public_transport_routes",
   },
 
@@ -487,8 +487,8 @@ const vehicles = [
     description:
       "The Comeng has hauled Melburnians since 1981 and is the elder statesman of the suburban fleet. Retirement is finally approaching as new trains arrive — every trip is borrowed time.",
     file: "Alstom Comeng 571M at Westona.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Alstom_Comeng_571M_at_Westona.jpg/500px-Alstom_Comeng_571M_at_Westona.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Alstom_Comeng_571M_at_Westona.jpg/1280px-Alstom_Comeng_571M_at_Westona.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Alstom_Comeng_571M_at_Westona.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Alstom_Comeng_571M_at_Westona.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Comeng_(train)",
   },
   {
@@ -508,8 +508,8 @@ const vehicles = [
     description:
       "The Nexas brought modern AC traction and a distinctive smooth acceleration to Melbourne. The fleet works mainly through the Cross-City group to Werribee, Williamstown and Frankston.",
     file: "Siemens Nexas 789M Frankston to Williamstown service via Flinders Street at Seaford railway station Platform 1 (28 January 2026).jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Siemens_Nexas_789M_Frankston_to_Williamstown_service_via_Flinders_Street_at_Seaford_railway_station_Platform_1_%2828_January_2026%29.jpg/500px-Siemens_Nexas_789M_Frankston_to_Williamstown_service_via_Flinders_Street_at_Seaford_railway_station_Platform_1_%2828_January_2026%29.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Siemens_Nexas_789M_Frankston_to_Williamstown_service_via_Flinders_Street_at_Seaford_railway_station_Platform_1_%2828_January_2026%29.jpg/1280px-Siemens_Nexas_789M_Frankston_to_Williamstown_service_via_Flinders_Street_at_Seaford_railway_station_Platform_1_%2828_January_2026%29.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Siemens_Nexas_789M_Frankston_to_Williamstown_service_via_Flinders_Street_at_Seaford_railway_station_Platform_1_%2828_January_2026%29.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Siemens_Nexas_789M_Frankston_to_Williamstown_service_via_Flinders_Street_at_Seaford_railway_station_Platform_1_%2828_January_2026%29.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Siemens_Nexas",
   },
   {
@@ -529,8 +529,8 @@ const vehicles = [
     description:
       "Melbourne's most numerous train, the X'Trapolis 100 dominates the Burnley and Clifton Hill groups out to Lilydale, Belgrave, Hurstbridge and Mernda. Later batches were assembled in Ballarat.",
     file: "210M Kananook.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/210M_Kananook.jpg/500px-210M_Kananook.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/210M_Kananook.jpg/1280px-210M_Kananook.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/210M_Kananook.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/210M_Kananook.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/X%27Trapolis_100",
   },
   {
@@ -550,8 +550,8 @@ const vehicles = [
     description:
       "The HCMT is the biggest train Melbourne has ever run — a 160-metre, seven-car walk-through set built at Newport. It carries the load through the new Metro Tunnel between Sunbury and Cranbourne/Pakenham.",
     file: "HCMT set 9033 Westall to West Footscray service via Metro Tunnel at Footscray railway station Platform 2 (28 January 2026).jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/HCMT_set_9033_Westall_to_West_Footscray_service_via_Metro_Tunnel_at_Footscray_railway_station_Platform_2_%2828_January_2026%29.jpg/500px-HCMT_set_9033_Westall_to_West_Footscray_service_via_Metro_Tunnel_at_Footscray_railway_station_Platform_2_%2828_January_2026%29.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/HCMT_set_9033_Westall_to_West_Footscray_service_via_Metro_Tunnel_at_Footscray_railway_station_Platform_2_%2828_January_2026%29.jpg/1280px-HCMT_set_9033_Westall_to_West_Footscray_service_via_Metro_Tunnel_at_Footscray_railway_station_Platform_2_%2828_January_2026%29.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/HCMT_set_9033_Westall_to_West_Footscray_service_via_Metro_Tunnel_at_Footscray_railway_station_Platform_2_%2828_January_2026%29.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/HCMT_set_9033_Westall_to_West_Footscray_service_via_Metro_Tunnel_at_Footscray_railway_station_Platform_2_%2828_January_2026%29.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/High_Capacity_Metro_Trains",
   },
   {
@@ -571,7 +571,7 @@ const vehicles = [
     description:
       "The VLocity is the fastest train in V/Line's fleet and a defining sight across regional Victoria. The diesel multiple units have been in continuous production for more than two decades.",
     file: "Vlocity train at lara victoria.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Vlocity_train_at_lara_victoria.jpg/500px-Vlocity_train_at_lara_victoria.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Vlocity_train_at_lara_victoria.jpg?width=500",
     imageLarge: "https://upload.wikimedia.org/wikipedia/commons/0/06/Vlocity_train_at_lara_victoria.jpg",
     source: "https://en.wikipedia.org/wiki/V/Line_VLocity",
   },
@@ -592,8 +592,8 @@ const vehicles = [
     description:
       "Sprinters are V/Line's single-car railcars, often coupled in pairs or trios for shorter regional runs to Seymour, Shepparton and Stony Point. Simple, boxy and surprisingly quick.",
     file: "Sprinter 7007 up Seymour service at Coolaroo railway station Platform 1 (21 January 2026).jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Sprinter_7007_up_Seymour_service_at_Coolaroo_railway_station_Platform_1_%2821_January_2026%29.jpg/500px-Sprinter_7007_up_Seymour_service_at_Coolaroo_railway_station_Platform_1_%2821_January_2026%29.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Sprinter_7007_up_Seymour_service_at_Coolaroo_railway_station_Platform_1_%2821_January_2026%29.jpg/1280px-Sprinter_7007_up_Seymour_service_at_Coolaroo_railway_station_Platform_1_%2821_January_2026%29.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Sprinter_7007_up_Seymour_service_at_Coolaroo_railway_station_Platform_1_%2821_January_2026%29.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Sprinter_7007_up_Seymour_service_at_Coolaroo_railway_station_Platform_1_%2821_January_2026%29.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/V/Line_Sprinter",
   },
   {
@@ -613,8 +613,8 @@ const vehicles = [
     description:
       "The N class diesel locomotives haul V/Line's traditional carriage sets on long-distance runs like Warrnambool and Albury. The last loco-hauled passenger workings in regular Victorian service.",
     file: "VLine N Class Locomotive N467.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/VLine_N_Class_Locomotive_N467.jpg/500px-VLine_N_Class_Locomotive_N467.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/VLine_N_Class_Locomotive_N467.jpg/1280px-VLine_N_Class_Locomotive_N467.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/VLine_N_Class_Locomotive_N467.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/VLine_N_Class_Locomotive_N467.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/V/Line_N_class",
   },
   {
@@ -634,8 +634,8 @@ const vehicles = [
     description:
       "The boxy A-class has rattled around Melbourne's inner suburbs for four decades. Short, high-floored and ubiquitous, it is the tram many Melburnians picture when they think 'tram'.",
     file: "A2.288 collins, 2023 (01).jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/A2.288_collins%2C_2023_%2801%29.jpg/500px-A2.288_collins%2C_2023_%2801%29.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/A2.288_collins%2C_2023_%2801%29.jpg/1280px-A2.288_collins%2C_2023_%2801%29.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/A2.288_collins%2C_2023_%2801%29.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/A2.288_collins%2C_2023_%2801%29.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/A-class_Melbourne_tram",
   },
   {
@@ -655,8 +655,8 @@ const vehicles = [
     description:
       "The two-section B2 was Melbourne's first mass-produced articulated tram and still holds down busy routes like the 86 and 96. A whole generation learned to commute aboard one.",
     file: "B2-class tram -2131 operating Route 1 to South Melbourne Beach on Swanston Street crossing Collins Street, Melbourne.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/B2-class_tram_-2131_operating_Route_1_to_South_Melbourne_Beach_on_Swanston_Street_crossing_Collins_Street%2C_Melbourne.jpg/500px-B2-class_tram_-2131_operating_Route_1_to_South_Melbourne_Beach_on_Swanston_Street_crossing_Collins_Street%2C_Melbourne.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/B2-class_tram_-2131_operating_Route_1_to_South_Melbourne_Beach_on_Swanston_Street_crossing_Collins_Street%2C_Melbourne.jpg/1280px-B2-class_tram_-2131_operating_Route_1_to_South_Melbourne_Beach_on_Swanston_Street_crossing_Collins_Street%2C_Melbourne.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/B2-class_tram_-2131_operating_Route_1_to_South_Melbourne_Beach_on_Swanston_Street_crossing_Collins_Street%2C_Melbourne.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/B2-class_tram_-2131_operating_Route_1_to_South_Melbourne_Beach_on_Swanston_Street_crossing_Collins_Street%2C_Melbourne.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/B-class_Melbourne_tram",
   },
   {
@@ -676,8 +676,8 @@ const vehicles = [
     description:
       "The three-section Citadis 202 introduced level boarding to Melbourne in 2001. The fleet of 36 works route 109 between Box Hill and Port Melbourne.",
     file: "C.3021 collins, 2023 (01).jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/C.3021_collins%2C_2023_%2801%29.jpg/500px-C.3021_collins%2C_2023_%2801%29.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/C.3021_collins%2C_2023_%2801%29.jpg/1280px-C.3021_collins%2C_2023_%2801%29.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/C.3021_collins%2C_2023_%2801%29.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/C.3021_collins%2C_2023_%2801%29.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/C-class_Melbourne_tram",
   },
   {
@@ -697,8 +697,8 @@ const vehicles = [
     description:
       "Just five C2-class Citadis trams exist in Melbourne, originally leased from the French city of Mulhouse. Their yellow fronts earned them the nickname 'Bumblebees' — spotting one is a genuine event.",
     file: "C2.5123 bourke, 2014.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/C2.5123_bourke%2C_2014.jpg/500px-C2.5123_bourke%2C_2014.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/C2.5123_bourke%2C_2014.jpg/1280px-C2.5123_bourke%2C_2014.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/C2.5123_bourke%2C_2014.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/C2.5123_bourke%2C_2014.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/C2-class_Melbourne_tram",
   },
   {
@@ -718,8 +718,8 @@ const vehicles = [
     description:
       "The D1 and D2 Combinos brought German low-floor design to routes like the 19, 58 and 72. The five-section D2s are the larger and more common sight.",
     file: "D2.5016 elizabeth, 2023 (01).jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/D2.5016_elizabeth%2C_2023_%2801%29.jpg/500px-D2.5016_elizabeth%2C_2023_%2801%29.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/D2.5016_elizabeth%2C_2023_%2801%29.jpg/1280px-D2.5016_elizabeth%2C_2023_%2801%29.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/D2.5016_elizabeth%2C_2023_%2801%29.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/D2.5016_elizabeth%2C_2023_%2801%29.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/D-class_Melbourne_tram",
   },
   {
@@ -739,8 +739,8 @@ const vehicles = [
     description:
       "The five-section E-class is Melbourne's longest tram in regular service. Built in Dandenong, its low floor and high capacity suit the network's busiest routes.",
     file: "Melbourne Tram E-Class 6007.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Melbourne_Tram_E-Class_6007.jpg/500px-Melbourne_Tram_E-Class_6007.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Melbourne_Tram_E-Class_6007.jpg/1280px-Melbourne_Tram_E-Class_6007.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Melbourne_Tram_E-Class_6007.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Melbourne_Tram_E-Class_6007.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/E-class_Melbourne_tram",
   },
   {
@@ -760,8 +760,8 @@ const vehicles = [
     description:
       "The low-floor G-class is based on Alstom's Flexity 2 platform and built for Melbourne's famous tram network. Battery storage and regenerative braking are designed to reduce peak power demand.",
     file: "G-class tram mockup at Alstom warehouse in Melbourne, Tullamarine (53413292470).jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/G-class_tram_mockup_at_Alstom_warehouse_in_Melbourne%2C_Tullamarine_%2853413292470%29.jpg/500px-G-class_tram_mockup_at_Alstom_warehouse_in_Melbourne%2C_Tullamarine_%2853413292470%29.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/G-class_tram_mockup_at_Alstom_warehouse_in_Melbourne%2C_Tullamarine_%2853413292470%29.jpg/1280px-G-class_tram_mockup_at_Alstom_warehouse_in_Melbourne%2C_Tullamarine_%2853413292470%29.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/G-class_tram_mockup_at_Alstom_warehouse_in_Melbourne%2C_Tullamarine_%2853413292470%29.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/G-class_tram_mockup_at_Alstom_warehouse_in_Melbourne%2C_Tullamarine_%2853413292470%29.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/G-class_Melbourne_tram",
   },
   {
@@ -781,8 +781,8 @@ const vehicles = [
     description:
       "The maroon W8s on the free City Circle route are rebuilt W-class trams dating back to the 1930s — among the oldest trams in scheduled service anywhere on Earth. Wooden seats, clanging gong, pure Melbourne.",
     file: "W8 class tram -961 operating a route 35 City Circle service on Spring Street crossing Collins Street, Melbourne.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/W8_class_tram_-961_operating_a_route_35_City_Circle_service_on_Spring_Street_crossing_Collins_Street%2C_Melbourne.jpg/500px-W8_class_tram_-961_operating_a_route_35_City_Circle_service_on_Spring_Street_crossing_Collins_Street%2C_Melbourne.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/W8_class_tram_-961_operating_a_route_35_City_Circle_service_on_Spring_Street_crossing_Collins_Street%2C_Melbourne.jpg/1280px-W8_class_tram_-961_operating_a_route_35_City_Circle_service_on_Spring_Street_crossing_Collins_Street%2C_Melbourne.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/W8_class_tram_-961_operating_a_route_35_City_Circle_service_on_Spring_Street_crossing_Collins_Street%2C_Melbourne.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/W8_class_tram_-961_operating_a_route_35_City_Circle_service_on_Spring_Street_crossing_Collins_Street%2C_Melbourne.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/W-class_Melbourne_tram",
   },
   {
@@ -802,8 +802,8 @@ const vehicles = [
     description:
       "The Z3 has served Melbourne since 1979 and is now in its farewell years as new G-class trams arrive. Every orange-doored survivor you spot is living history.",
     file: "Z class at Maribyrnong termius.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Z_class_at_Maribyrnong_termius.jpg/500px-Z_class_at_Maribyrnong_termius.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Z_class_at_Maribyrnong_termius.jpg/1280px-Z_class_at_Maribyrnong_termius.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Z_class_at_Maribyrnong_termius.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Z_class_at_Maribyrnong_termius.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Z-class_Melbourne_tram",
   },
   {
@@ -823,8 +823,8 @@ const vehicles = [
     description:
       "This little punt ferries cyclists and pedestrians across the Yarra beneath the West Gate Bridge, linking Spotswood with Fishermans Bend. Quite possibly Australia's most obscure timetabled service.",
     file: "Westgate Punt boat passing under the West Gate Bridge, Melbourne.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Westgate_Punt_boat_passing_under_the_West_Gate_Bridge%2C_Melbourne.jpg/500px-Westgate_Punt_boat_passing_under_the_West_Gate_Bridge%2C_Melbourne.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Westgate_Punt_boat_passing_under_the_West_Gate_Bridge%2C_Melbourne.jpg/1280px-Westgate_Punt_boat_passing_under_the_West_Gate_Bridge%2C_Melbourne.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Westgate_Punt_boat_passing_under_the_West_Gate_Bridge%2C_Melbourne.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Westgate_Punt_boat_passing_under_the_West_Gate_Bridge%2C_Melbourne.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Westgate_Punt",
   },
   {
@@ -844,8 +844,8 @@ const vehicles = [
     description:
       "Kinetic runs Melbourne's biggest bus franchise with hundreds of Volgren-bodied buses built in Dandenong. The PTV orange livery threads through every suburb the trains and trams miss.",
     file: "Kinetic Melbourne Bus Route 202 at University of Melbourne.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Kinetic_Melbourne_Bus_Route_202_at_University_of_Melbourne.jpg/500px-Kinetic_Melbourne_Bus_Route_202_at_University_of_Melbourne.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Kinetic_Melbourne_Bus_Route_202_at_University_of_Melbourne.jpg/1280px-Kinetic_Melbourne_Bus_Route_202_at_University_of_Melbourne.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Kinetic_Melbourne_Bus_Route_202_at_University_of_Melbourne.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Kinetic_Melbourne_Bus_Route_202_at_University_of_Melbourne.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Buses_in_Melbourne",
   },
 
@@ -867,8 +867,8 @@ const vehicles = [
     description:
       "Melbourne's stainless steel Hitachis had no air conditioning, so summer meant open windows and a faceful of breeze. The last set bowed out in 2014 after four decades of service.",
     file: "Hitachi at Merri creek bridge.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Hitachi_at_Merri_creek_bridge.jpg/500px-Hitachi_at_Merri_creek_bridge.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Hitachi_at_Merri_creek_bridge.jpg/1280px-Hitachi_at_Merri_creek_bridge.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Hitachi_at_Merri_creek_bridge.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Hitachi_at_Merri_creek_bridge.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Hitachi_(Australian_train)",
   },
   {
@@ -888,8 +888,8 @@ const vehicles = [
     description:
       "Regional Victorian cities like Ballarat, Bendigo and Geelong run entirely on buses between train trips. CDC's PTV-liveried fleet threads Ballarat's wide goldfields-era streets.",
     file: "CDC Ballarat BS02NN December 2021.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/CDC_Ballarat_BS02NN_December_2021.jpg/500px-CDC_Ballarat_BS02NN_December_2021.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/CDC_Ballarat_BS02NN_December_2021.jpg/1280px-CDC_Ballarat_BS02NN_December_2021.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/CDC_Ballarat_BS02NN_December_2021.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/CDC_Ballarat_BS02NN_December_2021.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/CDC_Victoria",
   },
 
@@ -911,8 +911,8 @@ const vehicles = [
     description:
       "Queensland Rail's largest electric fleet links Brisbane with the Gold Coast, Airport, Redcliffe and more. Its walk-through six-car formation makes the NGR one of the network's most recognisable modern trains.",
     file: "New Generation Rollingstock 736 Sunshine Railway Station Bilsen Rd Geebung P1040861.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/New_Generation_Rollingstock_736_Sunshine_Railway_Station_Bilsen_Rd_Geebung_P1040861.jpg/500px-New_Generation_Rollingstock_736_Sunshine_Railway_Station_Bilsen_Rd_Geebung_P1040861.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/New_Generation_Rollingstock_736_Sunshine_Railway_Station_Bilsen_Rd_Geebung_P1040861.jpg/1280px-New_Generation_Rollingstock_736_Sunshine_Railway_Station_Bilsen_Rd_Geebung_P1040861.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/New_Generation_Rollingstock_736_Sunshine_Railway_Station_Bilsen_Rd_Geebung_P1040861.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/New_Generation_Rollingstock_736_Sunshine_Railway_Station_Bilsen_Rd_Geebung_P1040861.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/New_Generation_Rollingstock",
   },
   {
@@ -932,8 +932,8 @@ const vehicles = [
     description:
       "The SMU 200, 220 and 260 series have carried Brisbane commuters since the mid-90s. With the original EMUs retired, these are now the elders of the City network.",
     file: "266Corinda.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/266Corinda.jpg/500px-266Corinda.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/266Corinda.jpg/1280px-266Corinda.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/266Corinda.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/266Corinda.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Suburban_Multiple_Unit",
   },
   {
@@ -953,8 +953,8 @@ const vehicles = [
     description:
       "IMUs were built for the longer interurban dashes to the Gold Coast and Brisbane Airport, with luggage racks and higher speeds than their suburban SMU cousins.",
     file: "IMU 184.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/IMU_184.jpg/500px-IMU_184.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/IMU_184.jpg/1280px-IMU_184.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/IMU_184.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/IMU_184.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Interurban_multiple_unit",
   },
   {
@@ -974,8 +974,8 @@ const vehicles = [
     description:
       "Queensland's Electric Tilt Train leans into curves on the narrow gauge North Coast line and once hit 210 km/h on test — still the fastest any train has gone in Australia. It runs Brisbane to Rockhampton and Bundaberg.",
     file: "City of Maryborough Platform 10 Roma Street Station Brisbane P1280919 (cropped).jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/City_of_Maryborough_Platform_10_Roma_Street_Station_Brisbane_P1280919_%28cropped%29.jpg/500px-City_of_Maryborough_Platform_10_Roma_Street_Station_Brisbane_P1280919_%28cropped%29.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/City_of_Maryborough_Platform_10_Roma_Street_Station_Brisbane_P1280919_%28cropped%29.jpg/1280px-City_of_Maryborough_Platform_10_Roma_Street_Station_Brisbane_P1280919_%28cropped%29.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/City_of_Maryborough_Platform_10_Roma_Street_Station_Brisbane_P1280919_%28cropped%29.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/City_of_Maryborough_Platform_10_Roma_Street_Station_Brisbane_P1280919_%28cropped%29.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Electric_Tilt_Train",
   },
   {
@@ -995,8 +995,8 @@ const vehicles = [
     description:
       "The Diesel Tilt Train runs the marathon Spirit of Queensland service from Brisbane to Cairns, with airline-style RailBeds for the overnight haul. One of the great Australian rail journeys.",
     file: "Spirit Of Queensland - Diesel Tilt Train.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Spirit_Of_Queensland_-_Diesel_Tilt_Train.jpg/500px-Spirit_Of_Queensland_-_Diesel_Tilt_Train.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Spirit_Of_Queensland_-_Diesel_Tilt_Train.jpg/1280px-Spirit_Of_Queensland_-_Diesel_Tilt_Train.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Spirit_Of_Queensland_-_Diesel_Tilt_Train.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Spirit_Of_Queensland_-_Diesel_Tilt_Train.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Diesel_Tilt_Train",
   },
   {
@@ -1016,8 +1016,8 @@ const vehicles = [
     description:
       "The Gulflander trundles 152 km between Normanton and Croydon in the Gulf Country on a line isolated from every other railway in Australia. The 1950 railmotor is the rarest catch in this entire collection's real-world inspiration.",
     file: "Railmotor93.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Railmotor93.jpg/500px-Railmotor93.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Railmotor93.jpg/1280px-Railmotor93.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Railmotor93.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Railmotor93.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Gulflander",
   },
   {
@@ -1037,8 +1037,8 @@ const vehicles = [
     description:
       "Twice a week the Spirit of the Outback hauls sleeping cars 1,325 km from Brisbane deep into western Queensland. Loco-hauled, leisurely and a true outback institution.",
     file: "Spirit of the Outback Bilsen Rd Geebung P1420326.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Spirit_of_the_Outback_Bilsen_Rd_Geebung_P1420326.jpg/500px-Spirit_of_the_Outback_Bilsen_Rd_Geebung_P1420326.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Spirit_of_the_Outback_Bilsen_Rd_Geebung_P1420326.jpg/1280px-Spirit_of_the_Outback_Bilsen_Rd_Geebung_P1420326.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Spirit_of_the_Outback_Bilsen_Rd_Geebung_P1420326.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Spirit_of_the_Outback_Bilsen_Rd_Geebung_P1420326.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Spirit_of_the_Outback",
   },
   {
@@ -1058,8 +1058,8 @@ const vehicles = [
     description:
       "The seven-section Flexity 2 is a 100 percent low-floor tram built for the Gold Coast's long, linear urban corridor. Its surfboard racks are a particularly local touch.",
     file: "GCLR Set 9 at Broadwater Parklands 2014-09-28.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/GCLR_Set_9_at_Broadwater_Parklands_2014-09-28.jpg/500px-GCLR_Set_9_at_Broadwater_Parklands_2014-09-28.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/GCLR_Set_9_at_Broadwater_Parklands_2014-09-28.jpg/1280px-GCLR_Set_9_at_Broadwater_Parklands_2014-09-28.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/GCLR_Set_9_at_Broadwater_Parklands_2014-09-28.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/GCLR_Set_9_at_Broadwater_Parklands_2014-09-28.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/G:link",
   },
   {
@@ -1079,8 +1079,8 @@ const vehicles = [
     description:
       "The bi-articulated HESS lighTram 25 uses rapid charging and all-door boarding on Brisbane's busways. It is the unusual, unmistakable centrepiece of the city's Metro service.",
     file: "Brisbane Metro bus testing on the Northern Busway, Brisbane, February 2024 P1001852.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Brisbane_Metro_bus_testing_on_the_Northern_Busway%2C_Brisbane%2C_February_2024_P1001852.jpg/500px-Brisbane_Metro_bus_testing_on_the_Northern_Busway%2C_Brisbane%2C_February_2024_P1001852.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Brisbane_Metro_bus_testing_on_the_Northern_Busway%2C_Brisbane%2C_February_2024_P1001852.jpg/1280px-Brisbane_Metro_bus_testing_on_the_Northern_Busway%2C_Brisbane%2C_February_2024_P1001852.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Brisbane_Metro_bus_testing_on_the_Northern_Busway%2C_Brisbane%2C_February_2024_P1001852.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Brisbane_Metro_bus_testing_on_the_Northern_Busway%2C_Brisbane%2C_February_2024_P1001852.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Brisbane_Metro",
   },
   {
@@ -1100,8 +1100,8 @@ const vehicles = [
     description:
       "CityCat catamarans sprint along the Brisbane River from UQ to Northshore Hamilton, each carrying an Aboriginal name for a place on the river. The commute Brisbane shows off to visitors.",
     file: "CityCat Binkinba and CityCat Meeandah approach North Quay Ferry Terminal Brisbane P1190681.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/CityCat_Binkinba_and_CityCat_Meeandah_approach_North_Quay_Ferry_Terminal_Brisbane_P1190681.jpg/500px-CityCat_Binkinba_and_CityCat_Meeandah_approach_North_Quay_Ferry_Terminal_Brisbane_P1190681.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/CityCat_Binkinba_and_CityCat_Meeandah_approach_North_Quay_Ferry_Terminal_Brisbane_P1190681.jpg/1280px-CityCat_Binkinba_and_CityCat_Meeandah_approach_North_Quay_Ferry_Terminal_Brisbane_P1190681.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/CityCat_Binkinba_and_CityCat_Meeandah_approach_North_Quay_Ferry_Terminal_Brisbane_P1190681.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/CityCat_Binkinba_and_CityCat_Meeandah_approach_North_Quay_Ferry_Terminal_Brisbane_P1190681.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/RiverCity_Ferries",
   },
   {
@@ -1121,8 +1121,8 @@ const vehicles = [
     description:
       "The red CityHopper monohulls loop the inner-city reach of the Brisbane River for free, from North Quay to Sydney Street. Slow, breezy and completely gratis.",
     file: "CityHopper ferry passing by the City Botanic Gardens, Brisbane.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/CityHopper_ferry_passing_by_the_City_Botanic_Gardens%2C_Brisbane.jpg/500px-CityHopper_ferry_passing_by_the_City_Botanic_Gardens%2C_Brisbane.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/CityHopper_ferry_passing_by_the_City_Botanic_Gardens%2C_Brisbane.jpg/1280px-CityHopper_ferry_passing_by_the_City_Botanic_Gardens%2C_Brisbane.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/CityHopper_ferry_passing_by_the_City_Botanic_Gardens%2C_Brisbane.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/CityHopper_ferry_passing_by_the_City_Botanic_Gardens%2C_Brisbane.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/RiverCity_Ferries",
   },
 
@@ -1143,8 +1143,8 @@ const vehicles = [
     description:
       "Brisbane City Council operates more than 1,200 buses — the largest council-owned fleet in the country. The blue-and-yellow Volgren-bodied Volvos work everywhere from quiet suburban loops to the South East Busway.",
     file: "Transport for Brisbane bus, E2119, a Volvo B7RLE Optimus.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Transport_for_Brisbane_bus%2C_E2119%2C_a_Volvo_B7RLE_Optimus.jpg/500px-Transport_for_Brisbane_bus%2C_E2119%2C_a_Volvo_B7RLE_Optimus.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Transport_for_Brisbane_bus%2C_E2119%2C_a_Volvo_B7RLE_Optimus.jpg/1280px-Transport_for_Brisbane_bus%2C_E2119%2C_a_Volvo_B7RLE_Optimus.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Transport_for_Brisbane_bus%2C_E2119%2C_a_Volvo_B7RLE_Optimus.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Transport_for_Brisbane_bus%2C_E2119%2C_a_Volvo_B7RLE_Optimus.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Transport_for_Brisbane",
   },
 
@@ -1187,8 +1187,8 @@ const vehicles = [
     description:
       "The EMUs electrified Brisbane in 1979 and outlasted every prediction, with the final units running until December 2024. EMU01 is preserved at the Workshops Rail Museum in Ipswich.",
     file: "Electricmultipleunit 42.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Electricmultipleunit_42.jpg/500px-Electricmultipleunit_42.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Electricmultipleunit_42.jpg/1280px-Electricmultipleunit_42.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Electricmultipleunit_42.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Electricmultipleunit_42.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Electric_multiple_unit_(Queensland_Rail)",
   },
   {
@@ -1208,8 +1208,8 @@ const vehicles = [
     description:
       "Sunbus carries Townsville and Cairns through the tropics, from The Willows to the Strand and Cairns Central to the northern beaches. Now part of Kinetic, the sun logo remains a north Queensland fixture.",
     file: "Sunbus Townsville Bus.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Sunbus_Townsville_Bus.jpg/500px-Sunbus_Townsville_Bus.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Sunbus_Townsville_Bus.jpg/1280px-Sunbus_Townsville_Bus.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Sunbus_Townsville_Bus.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Sunbus_Townsville_Bus.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Kinetic_Group",
   },
   {
@@ -1229,7 +1229,7 @@ const vehicles = [
     description:
       "With no passenger rail along the coast itself, the Sunshine Coast's buses link Caloundra, Maroochydore and Noosa. The fleet hubs at Sunshine Plaza, a short stroll from the beach.",
     file: "Sunbus Volvo B12BLE with Bustech VST body.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Sunbus_Volvo_B12BLE_with_Bustech_VST_body.jpg/500px-Sunbus_Volvo_B12BLE_with_Bustech_VST_body.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Sunbus_Volvo_B12BLE_with_Bustech_VST_body.jpg?width=500",
     imageLarge: "https://upload.wikimedia.org/wikipedia/commons/a/a1/Sunbus_Volvo_B12BLE_with_Bustech_VST_body.jpg",
     source: "https://en.wikipedia.org/wiki/Kinetic_Group",
   },
@@ -1250,7 +1250,7 @@ const vehicles = [
     description:
       "Surfside runs one of the largest urban bus fleets in the country, feeding the G:link trams and lacing together the Gold Coast's long strip of beach suburbs from Tweed Heads to Helensvale.",
     file: "Surfside Buslines Gold Coast (6616551079).jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Surfside_Buslines_Gold_Coast_%286616551079%29.jpg/500px-Surfside_Buslines_Gold_Coast_%286616551079%29.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Surfside_Buslines_Gold_Coast_%286616551079%29.jpg?width=500",
     imageLarge: "https://upload.wikimedia.org/wikipedia/commons/7/73/Surfside_Buslines_Gold_Coast_%286616551079%29.jpg",
     source: "https://en.wikipedia.org/wiki/Surfside_Buslines",
   },
@@ -1273,8 +1273,8 @@ const vehicles = [
     description:
       "The A-series electrified Perth's network in 1991 and has served every line since. With C-series replacements arriving, the originals are entering their twilight years.",
     file: "Transperth Trains A-Set 209 Midland Line 2 car set (5680733149).jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Transperth_Trains_A-Set_209_Midland_Line_2_car_set_%285680733149%29.jpg/500px-Transperth_Trains_A-Set_209_Midland_Line_2_car_set_%285680733149%29.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Transperth_Trains_A-Set_209_Midland_Line_2_car_set_%285680733149%29.jpg/1280px-Transperth_Trains_A-Set_209_Midland_Line_2_car_set_%285680733149%29.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Transperth_Trains_A-Set_209_Midland_Line_2_car_set_%285680733149%29.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Transperth_Trains_A-Set_209_Midland_Line_2_car_set_%285680733149%29.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Transperth_A-series_train",
   },
   {
@@ -1294,8 +1294,8 @@ const vehicles = [
     description:
       "The B-series was built for the long, fast Mandurah and Joondalup lines, where it cruises at 130 km/h down the middle of the freeway. The backbone of Perth's north-south spine.",
     file: "TransperthTrains-Bseries-Closeup.JPG",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/TransperthTrains-Bseries-Closeup.JPG/500px-TransperthTrains-Bseries-Closeup.JPG",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/TransperthTrains-Bseries-Closeup.JPG/1280px-TransperthTrains-Bseries-Closeup.JPG",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/TransperthTrains-Bseries-Closeup.JPG?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/TransperthTrains-Bseries-Closeup.JPG?width=1280",
     source: "https://en.wikipedia.org/wiki/Transperth_B-series_train",
   },
   {
@@ -1315,8 +1315,8 @@ const vehicles = [
     description:
       "Assembled at Bellevue, the C-series returned passenger train manufacturing to Western Australia. Six-car sets entered service on the Yanchep and Mandurah lines in 2024.",
     file: "Transperth C-series train at Canning Bridge Station, October 2024.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Transperth_C-series_train_at_Canning_Bridge_Station%2C_October_2024.jpg/500px-Transperth_C-series_train_at_Canning_Bridge_Station%2C_October_2024.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Transperth_C-series_train_at_Canning_Bridge_Station%2C_October_2024.jpg/1280px-Transperth_C-series_train_at_Canning_Bridge_Station%2C_October_2024.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Transperth_C-series_train_at_Canning_Bridge_Station%2C_October_2024.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Transperth_C-series_train_at_Canning_Bridge_Station%2C_October_2024.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Transperth_C-series_train",
   },
   {
@@ -1336,8 +1336,8 @@ const vehicles = [
     description:
       "The Prospector covers the 655 km from East Perth to the Goldfields at up to 160 km/h, making it Australia's fastest diesel train. Meals served at your seat as the wheatbelt blurs past.",
     file: "Prospector, Mt Lawley, 2013 (01).JPG",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Prospector%2C_Mt_Lawley%2C_2013_%2801%29.JPG/500px-Prospector%2C_Mt_Lawley%2C_2013_%2801%29.JPG",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Prospector%2C_Mt_Lawley%2C_2013_%2801%29.JPG/1280px-Prospector%2C_Mt_Lawley%2C_2013_%2801%29.JPG",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Prospector%2C_Mt_Lawley%2C_2013_%2801%29.JPG?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Prospector%2C_Mt_Lawley%2C_2013_%2801%29.JPG?width=1280",
     source: "https://en.wikipedia.org/wiki/Prospector_(train)",
   },
   {
@@ -1357,8 +1357,8 @@ const vehicles = [
     description:
       "Sister to the Prospector, the AvonLink railcar threads the scenic Avon Valley between Midland, Toodyay and Northam. One of the most obscure timetables in the country — perfect collector bait.",
     file: "Avonlink Bellevue.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Avonlink_Bellevue.jpg/500px-Avonlink_Bellevue.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Avonlink_Bellevue.jpg/1280px-Avonlink_Bellevue.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Avonlink_Bellevue.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Avonlink_Bellevue.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/AvonLink",
   },
   {
@@ -1378,8 +1378,8 @@ const vehicles = [
     description:
       "Perth's only ferry route crosses the Swan River from Elizabeth Quay to South Perth in about seven minutes. The vessels include MV Shelley Taylor-Smith, named for the champion marathon swimmer.",
     file: "MV Shelley Taylor-Smith crossing the Swan River, February 2023 03.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/MV_Shelley_Taylor-Smith_crossing_the_Swan_River%2C_February_2023_03.jpg/500px-MV_Shelley_Taylor-Smith_crossing_the_Swan_River%2C_February_2023_03.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/MV_Shelley_Taylor-Smith_crossing_the_Swan_River%2C_February_2023_03.jpg/1280px-MV_Shelley_Taylor-Smith_crossing_the_Swan_River%2C_February_2023_03.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/MV_Shelley_Taylor-Smith_crossing_the_Swan_River%2C_February_2023_03.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/MV_Shelley_Taylor-Smith_crossing_the_Swan_River%2C_February_2023_03.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Transperth",
   },
   {
@@ -1399,8 +1399,8 @@ const vehicles = [
     description:
       "The Central Area Transit buses loop Perth, Fremantle and Joondalup city centres completely free of charge, colour-coded by route. A Perth institution since the 90s.",
     file: "Perth CAT 2013 Volgren CR228L bodied Volvo B7RLE diesel TP2142.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Perth_CAT_2013_Volgren_CR228L_bodied_Volvo_B7RLE_diesel_TP2142.jpg/500px-Perth_CAT_2013_Volgren_CR228L_bodied_Volvo_B7RLE_diesel_TP2142.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Perth_CAT_2013_Volgren_CR228L_bodied_Volvo_B7RLE_diesel_TP2142.jpg/1280px-Perth_CAT_2013_Volgren_CR228L_bodied_Volvo_B7RLE_diesel_TP2142.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Perth_CAT_2013_Volgren_CR228L_bodied_Volvo_B7RLE_diesel_TP2142.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Perth_CAT_2013_Volgren_CR228L_bodied_Volvo_B7RLE_diesel_TP2142.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Perth_Central_Area_Transit",
   },
 
@@ -1422,8 +1422,8 @@ const vehicles = [
     description:
       "The Australind linked Perth and Bunbury for 35 years until its ageing railcars were withdrawn in 2022 and the service suspended indefinitely. Replacement trains are promised; the South West waits.",
     file: "Transwa Australind, Bunbury Passenger Terminal, 2014.JPG",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Transwa_Australind%2C_Bunbury_Passenger_Terminal%2C_2014.JPG/500px-Transwa_Australind%2C_Bunbury_Passenger_Terminal%2C_2014.JPG",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Transwa_Australind%2C_Bunbury_Passenger_Terminal%2C_2014.JPG/1280px-Transwa_Australind%2C_Bunbury_Passenger_Terminal%2C_2014.JPG",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Transwa_Australind%2C_Bunbury_Passenger_Terminal%2C_2014.JPG?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Transwa_Australind%2C_Bunbury_Passenger_Terminal%2C_2014.JPG?width=1280",
     source: "https://en.wikipedia.org/wiki/Australind_(train)",
   },
 
@@ -1445,8 +1445,8 @@ const vehicles = [
     description:
       "The three-car A-City is the only operational electric train class in South Australia. Built in Dandenong, it serves the Gawler, Seaford and Flinders lines.",
     file: "Adelaide Metro 4000 Class at Seaford.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Adelaide_Metro_4000_Class_at_Seaford.jpg/500px-Adelaide_Metro_4000_Class_at_Seaford.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Adelaide_Metro_4000_Class_at_Seaford.jpg/1280px-Adelaide_Metro_4000_Class_at_Seaford.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Adelaide_Metro_4000_Class_at_Seaford.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Adelaide_Metro_4000_Class_at_Seaford.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Adelaide_Metro_4000_class",
   },
   {
@@ -1466,8 +1466,8 @@ const vehicles = [
     description:
       "The 3000 class diesel railcars work the non-electrified lines to Belair, Outer Harbor and Grange. They have defined the look of Adelaide rail for nearly four decades.",
     file: "Adelaide Metro 3000 Class Railcar at Elizabeth.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Adelaide_Metro_3000_Class_Railcar_at_Elizabeth.jpg/500px-Adelaide_Metro_3000_Class_Railcar_at_Elizabeth.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Adelaide_Metro_3000_Class_Railcar_at_Elizabeth.jpg/1280px-Adelaide_Metro_3000_Class_Railcar_at_Elizabeth.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Adelaide_Metro_3000_Class_Railcar_at_Elizabeth.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Adelaide_Metro_3000_Class_Railcar_at_Elizabeth.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Adelaide_Metro_3000_class",
   },
   {
@@ -1487,8 +1487,8 @@ const vehicles = [
     description:
       "Adelaide's Flexity Classics replaced the beloved 1929 H-class trams on the historic Glenelg line and now run through the city to the Entertainment Centre. Germany via Bay 2 Beach.",
     file: "Adelaide Metro Glenelg Tram (Flexity Classic).JPG",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Adelaide_Metro_Glenelg_Tram_%28Flexity_Classic%29.JPG/500px-Adelaide_Metro_Glenelg_Tram_%28Flexity_Classic%29.JPG",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Adelaide_Metro_Glenelg_Tram_%28Flexity_Classic%29.JPG/1280px-Adelaide_Metro_Glenelg_Tram_%28Flexity_Classic%29.JPG",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Adelaide_Metro_Glenelg_Tram_%28Flexity_Classic%29.JPG?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Adelaide_Metro_Glenelg_Tram_%28Flexity_Classic%29.JPG?width=1280",
     source: "https://en.wikipedia.org/wiki/Flexity_Classic",
   },
   {
@@ -1508,7 +1508,7 @@ const vehicles = [
     description:
       "Adelaide's Citadis 302 trams were bought secondhand from Madrid, where they had barely been used. They now share the city line with the Flexity fleet — a genuine European import story.",
     file: "Adelaide Metro Citadis 302 tram from Glenelg at Morphett Road tram stop.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Adelaide_Metro_Citadis_302_tram_from_Glenelg_at_Morphett_Road_tram_stop.jpg/500px-Adelaide_Metro_Citadis_302_tram_from_Glenelg_at_Morphett_Road_tram_stop.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Adelaide_Metro_Citadis_302_tram_from_Glenelg_at_Morphett_Road_tram_stop.jpg?width=500",
     imageLarge: "https://upload.wikimedia.org/wikipedia/commons/4/46/Adelaide_Metro_Citadis_302_tram_from_Glenelg_at_Morphett_Road_tram_stop.jpg",
     source: "https://en.wikipedia.org/wiki/Trams_in_Adelaide",
   },
@@ -1529,8 +1529,8 @@ const vehicles = [
     description:
       "Adelaide's O-Bahn is the world's longest and fastest guided busway: buses lock onto a concrete track and barrel through the Torrens Gorge at 100 km/h, then drive off the end like a normal bus. There is nothing else like it in Australia.",
     file: "(AUS-South Australia) Torrens Transit 808 SA-Heavy Vehicle-SB-37-GS M44 2025-12-14.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/%28AUS-South_Australia%29_Torrens_Transit_808_SA-Heavy_Vehicle-SB-37-GS_M44_2025-12-14.jpg/500px-%28AUS-South_Australia%29_Torrens_Transit_808_SA-Heavy_Vehicle-SB-37-GS_M44_2025-12-14.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/%28AUS-South_Australia%29_Torrens_Transit_808_SA-Heavy_Vehicle-SB-37-GS_M44_2025-12-14.jpg/1280px-%28AUS-South_Australia%29_Torrens_Transit_808_SA-Heavy_Vehicle-SB-37-GS_M44_2025-12-14.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/%28AUS-South_Australia%29_Torrens_Transit_808_SA-Heavy_Vehicle-SB-37-GS_M44_2025-12-14.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/%28AUS-South_Australia%29_Torrens_Transit_808_SA-Heavy_Vehicle-SB-37-GS_M44_2025-12-14.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/O-Bahn_Busway",
   },
 
@@ -1552,7 +1552,7 @@ const vehicles = [
     description:
       "Nicknamed Jumbos for their jet-age noses, the 2000 class diesels were Adelaide's workhorses for three decades. Electrification and the A-City fleet finally saw them off in 2014.",
     file: "AdelaideRail 4.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/AdelaideRail_4.jpg/500px-AdelaideRail_4.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/AdelaideRail_4.jpg?width=500",
     imageLarge: "https://upload.wikimedia.org/wikipedia/commons/3/3f/AdelaideRail_4.jpg",
     source: "https://en.wikipedia.org/wiki/2000_class_railcar",
   },
@@ -1575,8 +1575,8 @@ const vehicles = [
     description:
       "With no trains and no bridge, the Spirit of Tasmania ferries are the island's lifeline across Bass Strait, sailing overnight between Devonport and Geelong. The biggest 'vehicle' in this entire collection.",
     file: "Spirit of Tasmania Port Melbourne.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Spirit_of_Tasmania_Port_Melbourne.jpg/500px-Spirit_of_Tasmania_Port_Melbourne.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Spirit_of_Tasmania_Port_Melbourne.jpg/1280px-Spirit_of_Tasmania_Port_Melbourne.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Spirit_of_Tasmania_Port_Melbourne.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Spirit_of_Tasmania_Port_Melbourne.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Spirit_of_Tasmania",
   },
   {
@@ -1596,8 +1596,8 @@ const vehicles = [
     description:
       "Tasmania has no passenger trains, so Metro Tasmania's green-and-white buses are the state's entire urban public transport system, climbing Hobart's famously steep hills daily.",
     file: "Metro Tasmania -855 (MET855) Bustech XDI - Cummins Bustech (52092799024).jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Metro_Tasmania_-855_%28MET855%29_Bustech_XDI_-_Cummins_Bustech_%2852092799024%29.jpg/500px-Metro_Tasmania_-855_%28MET855%29_Bustech_XDI_-_Cummins_Bustech_%2852092799024%29.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Metro_Tasmania_-855_%28MET855%29_Bustech_XDI_-_Cummins_Bustech_%2852092799024%29.jpg/1280px-Metro_Tasmania_-855_%28MET855%29_Bustech_XDI_-_Cummins_Bustech_%2852092799024%29.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Metro_Tasmania_-855_%28MET855%29_Bustech_XDI_-_Cummins_Bustech_%2852092799024%29.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Metro_Tasmania_-855_%28MET855%29_Bustech_XDI_-_Cummins_Bustech_%2852092799024%29.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Metro_Tasmania",
   },
 
@@ -1619,8 +1619,8 @@ const vehicles = [
     description:
       "Darwin's public transport runs entirely on buses, linking the city with Palmerston and Casuarina through the build-up heat and the wet season alike. The Territory's only entry — and a must-have for completionists.",
     file: "Darwinbus - Volgren CR228L bodied Mercedes Benz OC500LE.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Darwinbus_-_Volgren_CR228L_bodied_Mercedes_Benz_OC500LE.jpg/500px-Darwinbus_-_Volgren_CR228L_bodied_Mercedes_Benz_OC500LE.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Darwinbus_-_Volgren_CR228L_bodied_Mercedes_Benz_OC500LE.jpg/1280px-Darwinbus_-_Volgren_CR228L_bodied_Mercedes_Benz_OC500LE.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Darwinbus_-_Volgren_CR228L_bodied_Mercedes_Benz_OC500LE.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Darwinbus_-_Volgren_CR228L_bodied_Mercedes_Benz_OC500LE.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Darwinbus",
   },
 
@@ -1642,8 +1642,8 @@ const vehicles = [
     description:
       "Canberra's five-section CAF Urbos 3 trams connect Gungahlin with Civic. They launched the capital's first modern light rail service in April 2019.",
     file: "Urbos 3 leaving the Alinga Street light rail stop July 2021 (2).jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Urbos_3_leaving_the_Alinga_Street_light_rail_stop_July_2021_%282%29.jpg/500px-Urbos_3_leaving_the_Alinga_Street_light_rail_stop_July_2021_%282%29.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Urbos_3_leaving_the_Alinga_Street_light_rail_stop_July_2021_%282%29.jpg/1280px-Urbos_3_leaving_the_Alinga_Street_light_rail_stop_July_2021_%282%29.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Urbos_3_leaving_the_Alinga_Street_light_rail_stop_July_2021_%282%29.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Urbos_3_leaving_the_Alinga_Street_light_rail_stop_July_2021_%282%29.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Light_rail_in_Canberra",
   },
   {
@@ -1663,8 +1663,8 @@ const vehicles = [
     description:
       "Transport Canberra is converting its whole fleet to zero emissions, led by battery-electric buses like the one nicknamed 'Elektra'. Quiet streets, big ambitions.",
     file: "Transport Canberra bus no. 809, nicknamed 'Elektra'.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Transport_Canberra_bus_no._809%2C_nicknamed_%27Elektra%27.jpg/500px-Transport_Canberra_bus_no._809%2C_nicknamed_%27Elektra%27.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Transport_Canberra_bus_no._809%2C_nicknamed_%27Elektra%27.jpg/1280px-Transport_Canberra_bus_no._809%2C_nicknamed_%27Elektra%27.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Transport_Canberra_bus_no._809%2C_nicknamed_%27Elektra%27.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Transport_Canberra_bus_no._809%2C_nicknamed_%27Elektra%27.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Transport_Canberra",
   },
   // --- JAPAN -----------------------------------------------------------------------
@@ -1685,9 +1685,9 @@ const vehicles = [
     tagline: "The world's first bullet train. A legend retired.",
     description:
       "The Series 0 Shinkansen revolutionized rail travel when it debuted for Tokyo's 1964 Olympics, becoming the world's first commercial high-speed passenger train. Its rounded white nose became an icon of Japan's post-war engineering miracle. The last set retired in 2008 after 44 years of service.",
-    file: "Shinkansen 0 series 001.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Shinkansen_0_series_001.jpg/500px-Shinkansen_0_series_001.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Shinkansen_0_series_001.jpg/1280px-Shinkansen_0_series_001.jpg",
+    file: "Shinkansen 0 series.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Shinkansen%200%20series.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Shinkansen%200%20series.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Shinkansen_0_series",
   },
   {
@@ -1706,9 +1706,9 @@ const vehicles = [
     tagline: "Sleek and aerodynamic: the modern Tokaido line.",
     description:
       "The Series 700 refined the Shinkansen aesthetic with a more aerodynamic nose and advanced safety features. It has carried millions of commuters between Tokyo and Osaka on the Tokaido line and represents the marriage of beauty and engineering.",
-    file: "JR Central 700 Shinkansen.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/JR_Central_700_Shinkansen.jpg/500px-JR_Central_700_Shinkansen.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/JR_Central_700_Shinkansen.jpg/1280px-JR_Central_700_Shinkansen.jpg",
+    file: "Shinkansen 700.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Shinkansen%20700.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Shinkansen%20700.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Shinkansen_700_series",
   },
   {
@@ -1728,8 +1728,8 @@ const vehicles = [
     description:
       "The newest Shinkansen variant features AI-driven optimization, lightweight materials, and improved comfort. With enhanced aerodynamics and energy efficiency, it represents the cutting edge of Japanese rail technology — the bullet train's future.",
     file: "Shinkansen N700S 01 formation.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Shinkansen_N700S_01_formation.jpg/500px-Shinkansen_N700S_01_formation.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Shinkansen_N700S_01_formation.jpg/1280px-Shinkansen_N700S_01_formation.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Shinkansen_N700S_01_formation.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Shinkansen_N700S_01_formation.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Shinkansen_N700S",
   },
   {
@@ -1749,8 +1749,8 @@ const vehicles = [
     description:
       "Tokyo Metro's 1000 series trains serve the famous Ginza line and other routes, shuttling salarymen and schoolchildren through the dense urban underground. The gold-and-white livery is a fixture of daily Tokyo life.",
     file: "Tokyo Metro 1000 series Ginza Line.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Tokyo_Metro_1000_series_Ginza_Line.jpg/500px-Tokyo_Metro_1000_series_Ginza_Line.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Tokyo_Metro_1000_series_Ginza_Line.jpg/1280px-Tokyo_Metro_1000_series_Ginza_Line.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Tokyo_Metro_1000_series_Ginza_Line.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Tokyo_Metro_1000_series_Ginza_Line.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Tokyo_Metro_1000_series",
   },
   {
@@ -1770,8 +1770,8 @@ const vehicles = [
     description:
       "The Yamanote Line is the beating heart of Tokyo, a complete loop connecting 30 stations in an endless circle. The latest E235 series features AC24/12 traction and ultra-modern comfort.",
     file: "JR East E235 series Yamanote Line.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/JR_East_E235_series_Yamanote_Line.jpg/500px-JR_East_E235_series_Yamanote_Line.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/JR_East_E235_series_Yamanote_Line.jpg/1280px-JR_East_E235_series_Yamanote_Line.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/JR_East_E235_series_Yamanote_Line.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/JR_East_E235_series_Yamanote_Line.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/JR_East_E235_series",
   },
   {
@@ -1791,8 +1791,8 @@ const vehicles = [
     description:
       "The Randen is one of Japan's oldest street railways, running through Kyoto's historic districts past temples and bamboo groves. Its vintage charm makes it one of Japan's most photographed transit systems.",
     file: "Keifuku Randen streetcar Kyoto.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Keifuku_Randen_streetcar_Kyoto.jpg/500px-Keifuku_Randen_streetcar_Kyoto.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Keifuku_Randen_streetcar_Kyoto.jpg/1280px-Keifuku_Randen_streetcar_Kyoto.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Keifuku_Randen_streetcar_Kyoto.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Keifuku_Randen_streetcar_Kyoto.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Keifuku_Electric_Railway",
   },
 
@@ -1814,8 +1814,8 @@ const vehicles = [
     description:
       "The ICE 3 connects German cities at speeds up to 320 km/h with a distinctive aerodynamic design. It represents German engineering precision and has become an icon of modern European rail travel.",
     file: "DB ICE 3 Köln Hauptbahnhof.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/DB_ICE_3_K%C3%B6ln_Hauptbahnhof.jpg/500px-DB_ICE_3_K%C3%B6ln_Hauptbahnhof.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/DB_ICE_3_K%C3%B6ln_Hauptbahnhof.jpg/1280px-DB_ICE_3_K%C3%B6ln_Hauptbahnhof.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/DB_ICE_3_K%C3%B6ln_Hauptbahnhof.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/DB_ICE_3_K%C3%B6ln_Hauptbahnhof.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/ICE_3",
   },
   {
@@ -1835,8 +1835,8 @@ const vehicles = [
     description:
       "Munich's U-Bahn network and its distinctive Type C trains are integral to the city's Bavarian identity. The system seamlessly connects the city centre with the suburbs and major attractions.",
     file: "Munich U-Bahn Type C.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Munich_U-Bahn_Type_C.jpg/500px-Munich_U-Bahn_Type_C.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Munich_U-Bahn_Type_C.jpg/1280px-Munich_U-Bahn_Type_C.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Munich_U-Bahn_Type_C.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Munich_U-Bahn_Type_C.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Munich_U-Bahn",
   },
   {
@@ -1856,8 +1856,8 @@ const vehicles = [
     description:
       "The F75 has defined Berlin's underground for half a century, spanning both East and West Berlin and continuing to serve the reunified city. A symbol of Berlin's history and resilience.",
     file: "Berlin U-Bahn F75 train.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Berlin_U-Bahn_F75_train.jpg/500px-Berlin_U-Bahn_F75_train.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Berlin_U-Bahn_F75_train.jpg/1280px-Berlin_U-Bahn_F75_train.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Berlin_U-Bahn_F75_train.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Berlin_U-Bahn_F75_train.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Berlin_U-Bahn_F75",
   },
   {
@@ -1877,8 +1877,8 @@ const vehicles = [
     description:
       "Hamburg's newest U-Bahn trains feature fully driverless operation and cutting-edge climate control. They represent the future of German metro design.",
     file: "Hamburg U-Bahn DX Driverless Train.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Hamburg_U-Bahn_DX_Driverless_Train.jpg/500px-Hamburg_U-Bahn_DX_Driverless_Train.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Hamburg_U-Bahn_DX_Driverless_Train.jpg/1280px-Hamburg_U-Bahn_DX_Driverless_Train.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Hamburg_U-Bahn_DX_Driverless_Train.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Hamburg_U-Bahn_DX_Driverless_Train.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Hamburg_U-Bahn",
   },
   {
@@ -1898,8 +1898,8 @@ const vehicles = [
     description:
       "Frankfurt's U-Bahn Type C trains connect the financial district with residential areas and the airport, making them one of Europe's busiest metro systems.",
     file: "Frankfurt U-Bahn C-Baureihe.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Frankfurt_U-Bahn_C-Baureihe.jpg/500px-Frankfurt_U-Bahn_C-Baureihe.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Frankfurt_U-Bahn_C-Baureihe.jpg/1280px-Frankfurt_U-Bahn_C-Baureihe.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Frankfurt_U-Bahn_C-Baureihe.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Frankfurt_U-Bahn_C-Baureihe.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Frankfurt_U-Bahn",
   },
   {
@@ -1919,8 +1919,8 @@ const vehicles = [
     description:
       "Cologne's yellow-and-red trams are classic European street railways, running through medieval streets with views of the famous Dom cathedral. The K-type is the latest generation.",
     file: "KVB Cologne K-type tram.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/KVB_Cologne_K-type_tram.jpg/500px-KVB_Cologne_K-type_tram.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/KVB_Cologne_K-type_tram.jpg/1280px-KVB_Cologne_K-type_tram.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/KVB_Cologne_K-type_tram.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/KVB_Cologne_K-type_tram.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Cologne_Straßenbahn",
   },
 
@@ -1942,8 +1942,8 @@ const vehicles = [
     description:
       "The TGV InOui modernizes France's legendary high-speed rail with contemporary design, WiFi connectivity, and energy efficiency. It represents the pride of French railway innovation.",
     file: "SNCF TGV InOui Paris.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/SNCF_TGV_InOui_Paris.jpg/500px-SNCF_TGV_InOui_Paris.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/SNCF_TGV_InOui_Paris.jpg/1280px-SNCF_TGV_InOui_Paris.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/SNCF_TGV_InOui_Paris.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/SNCF_TGV_InOui_Paris.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/TGV_InOui",
   },
   {
@@ -1963,8 +1963,8 @@ const vehicles = [
     description:
       "The MP14 brings automation and climate control to Paris's legendary Metro. Fully driverless and representing the future of the world's oldest metro system.",
     file: "Paris Metro MP14 train.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Paris_Metro_MP14_train.jpg/500px-Paris_Metro_MP14_train.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Paris_Metro_MP14_train.jpg/1280px-Paris_Metro_MP14_train.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Paris_Metro_MP14_train.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Paris_Metro_MP14_train.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/RATP_MP14",
   },
   {
@@ -1984,8 +1984,8 @@ const vehicles = [
     description:
       "Lyon's newest light rail adds to the city's integrated transit network, connecting the city of silk's historic districts with modern efficiency and sleek Alstom engineering.",
     file: "Alstom Citadis Lyon tram.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Alstom_Citadis_Lyon_tram.jpg/500px-Alstom_Citadis_Lyon_tram.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Alstom_Citadis_Lyon_tram.jpg/1280px-Alstom_Citadis_Lyon_tram.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Alstom_Citadis_Lyon_tram.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Alstom_Citadis_Lyon_tram.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Lyon_Citadis",
   },
 
@@ -2007,8 +2007,8 @@ const vehicles = [
     description:
       "The InterCity 125 set the diesel speed record at 201 km/h and has become Britain's most iconic passenger train, working long-distance routes for half a century with minimal change to its timeless design.",
     file: "British Rail HST 125 InterCity.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/British_Rail_HST_125_InterCity.jpg/500px-British_Rail_HST_125_InterCity.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/British_Rail_HST_125_InterCity.jpg/1280px-British_Rail_HST_125_InterCity.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/British_Rail_HST_125_InterCity.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/British_Rail_HST_125_InterCity.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/British_Rail_Class_43",
   },
   {
@@ -2028,8 +2028,8 @@ const vehicles = [
     description:
       "The Piccadilly Line is one of London's oldest and most recognizable Underground lines, connecting central London with Heathrow and beyond. The red-branded trains are symbols of British life.",
     file: "London Underground Piccadilly Line S7.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/London_Underground_Piccadilly_Line_S7.jpg/500px-London_Underground_Piccadilly_Line_S7.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/London_Underground_Piccadilly_Line_S7.jpg/1280px-London_Underground_Piccadilly_Line_S7.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/London_Underground_Piccadilly_Line_S7.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/London_Underground_Piccadilly_Line_S7.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Piccadilly_line",
   },
   {
@@ -2049,8 +2049,8 @@ const vehicles = [
     description:
       "The Routemaster is the symbol of London itself — a beloved red double-decker with an open rear platform and a cheerful conductor. Retired for years, newer heritage versions now run tourist-friendly routes.",
     file: "AEC Routemaster RM1950 London bus heritage route.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/AEC_Routemaster_RM1950_London_bus_heritage_route.jpg/500px-AEC_Routemaster_RM1950_London_bus_heritage_route.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/AEC_Routemaster_RM1950_London_bus_heritage_route.jpg/1280px-AEC_Routemaster_RM1950_London_bus_heritage_route.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/AEC_Routemaster_RM1950_London_bus_heritage_route.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/AEC_Routemaster_RM1950_London_bus_heritage_route.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Routemaster",
   },
   {
@@ -2070,8 +2070,8 @@ const vehicles = [
     description:
       "After 75 years without trams, Edinburgh brought them back with this modern Citadis line connecting the city centre with the airport through Edinburgh's elegant Georgian streets.",
     file: "Edinburgh Tram Citadis X05.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Edinburgh_Tram_Citadis_X05.jpg/500px-Edinburgh_Tram_Citadis_X05.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Edinburgh_Tram_Citadis_X05.jpg/1280px-Edinburgh_Tram_Citadis_X05.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Edinburgh_Tram_Citadis_X05.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Edinburgh_Tram_Citadis_X05.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Edinburgh_Tram",
   },
 
@@ -2093,8 +2093,8 @@ const vehicles = [
     description:
       "The R211 replaces the aging R62 and R62A trains on the NYC subway with full Wi-Fi, better ventilation, and digital displays. It represents a major modernization of the world's most used rapid transit system.",
     file: "MTA R211 New York City Subway.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/MTA_R211_New_York_City_Subway.jpg/500px-MTA_R211_New_York_City_Subway.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/MTA_R211_New_York_City_Subway.jpg/1280px-MTA_R211_New_York_City_Subway.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/MTA_R211_New_York_City_Subway.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/MTA_R211_New_York_City_Subway.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/R211_(train)",
   },
   {
@@ -2114,8 +2114,8 @@ const vehicles = [
     description:
       "Chicago's elevated 'L' is the second-oldest metro system in North America and an iconic part of the city's skyline. The trains roar around the elevated Loop circuit in downtown Chicago.",
     file: "Chicago L Train CTA elevated.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Chicago_L_Train_CTA_elevated.jpg/500px-Chicago_L_Train_CTA_elevated.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Chicago_L_Train_CTA_elevated.jpg/1280px-Chicago_L_Train_CTA_elevated.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Chicago_L_Train_CTA_elevated.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Chicago_L_Train_CTA_elevated.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Chicago_L",
   },
   {
@@ -2135,8 +2135,8 @@ const vehicles = [
     description:
       "BART's distinctive red trains connect San Francisco with the East Bay, crossing the iconic bay on elevated tracks and through the tube beneath the water. A symbol of West Coast transit ambition.",
     file: "BART Bay Area Rapid Transit train.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/BART_Bay_Area_Rapid_Transit_train.jpg/500px-BART_Bay_Area_Rapid_Transit_train.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/BART_Bay_Area_Rapid_Transit_train.jpg/1280px-BART_Bay_Area_Rapid_Transit_train.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/BART_Bay_Area_Rapid_Transit_train.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/BART_Bay_Area_Rapid_Transit_train.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/BART",
   },
 
@@ -2158,8 +2158,8 @@ const vehicles = [
     description:
       "MTR's newest trains use Tokyo stock platforms adapted for Hong Kong's system. These represent the cutting edge of Asian metro efficiency and reliability.",
     file: "Hong Kong MTR Tokyo Stock train.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Hong_Kong_MTR_Tokyo_Stock_train.jpg/500px-Hong_Kong_MTR_Tokyo_Stock_train.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Hong_Kong_MTR_Tokyo_Stock_train.jpg/1280px-Hong_Kong_MTR_Tokyo_Stock_train.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Hong_Kong_MTR_Tokyo_Stock_train.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Hong_Kong_MTR_Tokyo_Stock_train.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/MTR",
   },
   {
@@ -2179,8 +2179,8 @@ const vehicles = [
     description:
       "Hong Kong's famous double-deck trams navigate steep grades and sharp turns on Hong Kong Island, offering some of the best views of the harbour. They've been running since 1904 with minimal changes.",
     file: "Hong Kong double-deck tram.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Hong_Kong_double-deck_tram.jpg/500px-Hong_Kong_double-deck_tram.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Hong_Kong_double-deck_tram.jpg/1280px-Hong_Kong_double-deck_tram.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Hong_Kong_double-deck_tram.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Hong_Kong_double-deck_tram.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Hong_Kong_Tramways",
   },
 
@@ -2202,8 +2202,8 @@ const vehicles = [
     description:
       "Singapore's C151 trains are among the world's most advanced, featuring driverless operation and extreme reliability. They exemplify Singapore's pursuit of cutting-edge transport technology.",
     file: "Singapore MRT C151 train driverless.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Singapore_MRT_C151_train_driverless.jpg/500px-Singapore_MRT_C151_train_driverless.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Singapore_MRT_C151_train_driverless.jpg/1280px-Singapore_MRT_C151_train_driverless.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Singapore_MRT_C151_train_driverless.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/Singapore_MRT_C151_train_driverless.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Singapore_MRT",
   },
 
@@ -2225,8 +2225,8 @@ const vehicles = [
     description:
       "Toronto's T1 represents a major modernization, replacing older trains on the Line 1 Yonge-University corridor with advanced features and improved capacity.",
     file: "TTC Toronto T1 subway train.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/TTC_Toronto_T1_subway_train.jpg/500px-TTC_Toronto_T1_subway_train.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/TTC_Toronto_T1_subway_train.jpg/1280px-TTC_Toronto_T1_subway_train.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/TTC_Toronto_T1_subway_train.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/TTC_Toronto_T1_subway_train.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/Toronto_subway",
   },
   {
@@ -2246,8 +2246,8 @@ const vehicles = [
     description:
       "The SkyTrain was one of North America's first driverless metro systems, running elevated and underground through Vancouver's sprawling landscape. A pioneering automated system that still impresses.",
     file: "TransLink Vancouver SkyTrain driverless.jpg",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/TransLink_Vancouver_SkyTrain_driverless.jpg/500px-TransLink_Vancouver_SkyTrain_driverless.jpg",
-    imageLarge: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/TransLink_Vancouver_SkyTrain_driverless.jpg/1280px-TransLink_Vancouver_SkyTrain_driverless.jpg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/TransLink_Vancouver_SkyTrain_driverless.jpg?width=500",
+    imageLarge: "https://commons.wikimedia.org/wiki/Special:FilePath/TransLink_Vancouver_SkyTrain_driverless.jpg?width=1280",
     source: "https://en.wikipedia.org/wiki/SkyTrain",
   },
 ];
