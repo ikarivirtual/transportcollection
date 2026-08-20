@@ -1,6 +1,45 @@
 const imageUrl = (file, width = 1200) =>
   `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(file).replace(/'/g, "%27")}?width=${width}`;
 
+const svgEscape = (value = "") =>
+  String(value).replace(/[&<>"']/g, (char) => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    "\"": "&quot;",
+    "'": "&#39;",
+  }[char]));
+
+function placeholderImage(vehicle) {
+  const modeColors = {
+    train: ["#315f7d", "#dcebf2"],
+    tram: ["#6d4b8b", "#efe5f6"],
+    bus: ["#b55f28", "#f6e5d6"],
+    ferry: ["#25706d", "#d8efed"],
+  };
+  const [accent, tint] = modeColors[vehicle.mode] || ["#68717c", "#edf2f5"];
+  const label = svgEscape(vehicle.shortName || vehicle.name || "Vehicle");
+  const mode = svgEscape(vehicle.mode || "vehicle");
+  const svg = `
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560">
+      <rect width="900" height="560" fill="${tint}"/>
+      <path d="M120 390h660l-54 70H174z" fill="#202832" opacity=".18"/>
+      <rect x="190" y="150" width="520" height="210" rx="28" fill="#fff"/>
+      <path d="M228 188h444v96H228z" fill="${accent}" opacity=".18"/>
+      <path d="M238 310h424" stroke="${accent}" stroke-width="18" stroke-linecap="round"/>
+      <circle cx="292" cy="376" r="36" fill="#202832"/>
+      <circle cx="608" cy="376" r="36" fill="#202832"/>
+      <text x="450" y="126" text-anchor="middle" fill="${accent}" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">${label}</text>
+      <text x="450" y="490" text-anchor="middle" fill="#68717c" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="4">${mode.toUpperCase()}</text>
+    </svg>`;
+
+  return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
+}
+
+function vehicleImage(vehicle, width = 500, large = false) {
+  return (large ? vehicle.imageLarge : vehicle.image) || imageUrl(vehicle.file, width);
+}
+
 const rarityRank = { common: 1, rare: 2, epic: 3, legendary: 4 };
 const rarityConfig = {
   common: { stamps: 1, shinyStamps: 3, charter: 15 },
@@ -392,11 +431,12 @@ function vehicleCard(vehicle, options = {}) {
       ${!locked && shinyCopies && !options.hideCount ? `<span class="foil-chip">★ LTD ×${shinyCopies}</span>` : ""}
       <div class="vehicle-image">
         <img
-          src="${vehicle.image}"
+          src="${vehicleImage(vehicle, 500)}"
           alt="${vehicle.name}"
           loading="lazy"
+          decoding="async"
           referrerpolicy="no-referrer"
-          onerror="this.onerror=null;this.src='${imageUrl(vehicle.file, 700)}'"
+          onerror="this.onerror=null;this.src='${placeholderImage(vehicle)}'"
         />
         ${locked ? '<span class="locked-stamp">NOT SIGHTED</span>' : ""}
         ${vehicle.retired && !locked ? '<span class="retired-stamp">FLEET RETIRED</span>' : ""}
@@ -727,8 +767,8 @@ function openDetail(vehicle) {
         <i data-lucide="x"></i>
       </button>
       <div class="detail-image">
-        <img src="${vehicle.imageLarge}" alt="${vehicle.name}" referrerpolicy="no-referrer"
-             onerror="this.onerror=null;this.src='${imageUrl(vehicle.file, 1300)}'" />
+        <img src="${vehicleImage(vehicle, 1300, true)}" alt="${vehicle.name}" referrerpolicy="no-referrer"
+             decoding="async" onerror="this.onerror=null;this.src='${placeholderImage(vehicle)}'" />
       </div>
       <div class="detail-copy">
         <span class="rarity-label">${vehicle.rarity} / ${vehicle.mode}</span>
@@ -864,7 +904,7 @@ window.setInterval(() => {
 }, 1000);
 
 document.querySelector("#hero-image").style.backgroundImage =
-  `url("${getVehicle("vlocity").imageLarge}")`;
+  `url("${vehicleImage(getVehicle("vlocity"), 1280, true)}")`;
 
 applyRegen();
 saveGame();
